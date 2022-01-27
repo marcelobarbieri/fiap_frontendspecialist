@@ -1,0 +1,86 @@
+*** AULA 01
+
+VSCode Extensions:
+- Color Highlight
+- Prettier - Code formatter
+
+LOGICA DE PROGRAMAÇÃO
+
+    VARIÁVEIS
+
+        Tipos de Dados
+            Boolean
+            Null
+            Undefined
+            Number
+            String
+
+        Tipagem Dinâmica
+        - automaticamente determinado quando o programa for processado
+
+        Declaração de Variável
+        let vs var (escopo)
+                -----  Escopos  ------
+                Global   Local   Bloco
+        - let      x       x       x    (limita o escopo)
+        - var      x       x            (não limita escopo)
+
+        Escopo
+        - local: dentro de alguma função
+        - global: fora de qualquer função
+
+        (1) var e let são acessíveis em outras funções quando no escopo global e local
+        (2) let não são acessíveis em outras funções quando no escopo de bloco
+
+        (3) utilizar preferencialmente o let por haver limitação
+        (4) Na tipagem dinâmica quando não for informado let ou var, será assumido var
+
+    CONSTANTES
+        recebe um valor no momento da sua declaração
+        tem escopo de bloco, declaradas com let
+
+    OPERADORES ARITMÉTICOS
+        +
+        -
+        *
+        ** exponenciação
+        /
+        %
+        ++
+        --
+
+PROJETO "OLÁ MUNDO"
+
+    Abrir Pasta
+        C:\Dev\FIAP\FrontEndSpecialist\OlaMundo\
+
+    Nova Pasta
+        js\
+
+    Novo Arquivo
+        js\
+            index.html
+            script.js
+    
+    index.html
+
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <title>
+                    Projeto Olá Mundo
+                </title>
+            </head>
+            <body>
+                <h2>Introdução ao JavaScript</h2>
+                <p>Meu primeiro projeto JavaScript</p>
+                <p id="saida"></p>
+
+                <script type="text/javascript" src="script.js"></script>
+            </body>
+        </html>
+
+    script.js
+
+        document.getElementById("saida").innerHTML = "Olá mundo!"
+        alert("Olá mundo!");    

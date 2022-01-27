@@ -1,0 +1,65 @@
+*** Aula 02
+
+PROJETO "OLÁ MUNDO"
+
+    Abrir Pasta
+        C:\Dev\FIAP\FrontEndSpecialist\OlaMundo\
+
+    js/
+        script.js
+        index.html
+
+    script.js
+
+        let nome = prompt("Digite o seu nome: ")
+        //alert(`Olá ${nome}, seja bem-vindo a imersão de Front End`)
+        document.getElementById("saida").innerHTML = `Olá ${nome}, seja bem-vindo a imersão de Front End`
+
+    index.html
+
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <title>
+                    Projeto Olá Mundo
+                </title>
+            </head>
+            <body>
+                <h2>Introdução ao JavaScript</h2>
+                <p>Meu primeiro projeto JavaScript</p>
+                <p id="saida"></p>
+
+                <script type="text/javascript" src="script.js"></script>
+            </body>
+        </html>
+
+GIT
+
+    git-scm.com
+    
+GITHUB
+
+    github.com
+
+    Criar novo repositório
+
+        js_logica
+
+    Setup
+
+        pwd
+            C:\Dev\FIAP\FrontEndSpecialist
+
+        git config --global user.email "marcelodpbarbieri@gmail.com"
+        git config --global user.name "marcelobarbieri"
+        git config --list
+
+        https://github.com/marcelobarbieri/js_logica.git
+
+        echo "# js_logica" >> README.md
+        git init
+        git add README.md
+        git commit -m "first commit"
+        git branch -M main
+        git remote add origin https://github.com/marcelobarbieri/js_logica.git
+        git push -u origin main
