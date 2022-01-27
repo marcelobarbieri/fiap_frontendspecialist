@@ -56,10 +56,12 @@ GITHUB
 
         https://github.com/marcelobarbieri/js_logica.git
 
-        echo "# js_logica" >> README.md
         git init
-        git add README.md
+        git add .
         git commit -m "first commit"
         git branch -M main
         git remote add origin https://github.com/marcelobarbieri/js_logica.git
         git push -u origin main
+
+    Repositório do professor Alex Sander Resende
+        https://github.com/profalexresende/javaScript_logica.git
