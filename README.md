@@ -7,6 +7,7 @@ Start writing on GitHub [Basic formatting syntax](https://docs.github.com/en/get
 VSCode Extensions:
 
 > Color Highlight
+
 > Prettier - Code formatter
 
 ## Lógica de Programação
@@ -23,24 +24,27 @@ Number
 String
 ```
 
-        Tipagem Dinâmica
-        - automaticamente determinado quando o programa for processado
+Tipagem Dinâmica
 
-        Declaração de Variável
-        let vs var (escopo)
-                -----  Escopos  ------
-                Global   Local   Bloco
-        - let      x       x       x    (limita o escopo)
-        - var      x       x            (não limita escopo)
+- automaticamente determinado quando o programa for processado
 
-        Escopo
-        - local: dentro de alguma função
-        - global: fora de qualquer função
+Declaração de Variável
+let vs var (escopo)
+----- Escopos ------
+Global Local Bloco
 
-        (1) var e let são acessíveis em outras funções quando no escopo global e local
-        (2) let não são acessíveis em outras funções quando no escopo de bloco
+- let x x x (limita o escopo)
+- var x x (não limita escopo)
 
-        (3) utilizar preferencialmente o let por haver limitação
-        (4) Na tipagem dinâmica quando não for informado let ou var, será assumido var
+Escopo
+
+- local: dentro de alguma função
+- global: fora de qualquer função
+
+(1) var e let são acessíveis em outras funções quando no escopo global e local
+(2) let não são acessíveis em outras funções quando no escopo de bloco
+
+(3) utilizar preferencialmente o let por haver limitação
+(4) Na tipagem dinâmica quando não for informado let ou var, será assumido var
 
 # Aula 2
