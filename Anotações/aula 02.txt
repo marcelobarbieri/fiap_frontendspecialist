@@ -65,3 +65,38 @@ GITHUB
 
     Repositório do professor Alex Sander Resende
         https://github.com/profalexresende/javaScript_logica.git
+
+PROJETO "SOMA NUMEROS"
+
+    Abrir Pasta
+        C:\Dev\FIAP\FrontEndSpecialist\SomaNumeros
+
+    Nova Pasta
+        css/
+        js/
+
+    Novo Arquivo
+        css/
+        js/
+            script.js
+        index.html
+
+    script.js
+
+        let n1 = 5;
+        let n2 = 6;
+        alert(`Soma: ${n1 + n2}`);    
+
+    index.html
+
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <title>
+                    Projeto Soma Números
+                </title>
+            </head>
+            <body>
+                <script type="text/javascript" src="js/script.js"></script>
+            </body>
+        </html>    
