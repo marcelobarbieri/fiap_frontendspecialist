@@ -105,3 +105,18 @@ PROJETO "SOMA NUMEROS"
                 <script type="text/javascript" src="js/script.js"></script>
             </body>
         </html>    
+
+HANDS ON
+
+1. 
+Digitar o valor da cotação do dólar e o valor da doação
+Converter para reais e exibir o resultado na tela
+
+2. 
+Digita quilometragem inicial e final, litros reabastecidos
+Qual o consumo (km/L)?
+
+3.
+Nota AC (20% da nota)
+Nota AG (10% da nota)
+Nota AT (70% da nota)
