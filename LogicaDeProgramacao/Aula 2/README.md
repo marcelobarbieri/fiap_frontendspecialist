@@ -2,7 +2,7 @@
 
 ## Desvios Condicionais
 
-### Projeto JogoONG
+### Projeto Jogo ONG
 
 Nova **Pasta/ Arquivos**
 js/
