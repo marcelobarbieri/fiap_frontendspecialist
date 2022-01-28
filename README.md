@@ -2,7 +2,7 @@
 
 ## Front-end Specialist
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![Front-end Specialist](https://github.com/marcelobarbieri/fiap_frontendspecialist/blob/main/Assets/frontendspecialist.png)
 
 > Start writing on GitHub [Basic formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
