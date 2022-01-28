@@ -4,10 +4,9 @@
 
 ### Projeto Jogo ONG
 
-Nova **Pasta/ Arquivos**
-js/
-**script.js**
-**index.html**
+Nova Pasta/ Arquivos
+js/script.js
+index.html
 
 index.html
 
