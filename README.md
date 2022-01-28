@@ -2,4 +2,4 @@
 
 Start writing on GitHub [Basic formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-[Aula 1](https://github.com/marcelobarbieri/js_logica/blob/main/README.md#aula-1)
+[Lógica de Programação](https://github.com/marcelobarbieri/js_logica/blob/db47e3480891c7595c2d524d60a0cd4a6a5f0d96/LogicaDeProgramacao/README.md)
