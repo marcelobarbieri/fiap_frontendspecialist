@@ -29,5 +29,10 @@ index.html
 script.js
 
 ```
-
+let idade=parseInt(prompt("Digite a sua idade:"));
+if(idade>=12){
+    alert("Você pode jogar!");
+} else {
+    alert("Sua idade não permite que você jogue!");
+}
 ```
