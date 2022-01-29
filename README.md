@@ -2,7 +2,7 @@
 
 [Link](https://www.fiap.com.br/shift/curso/tecnologia/front-end-specialist-desenvolvimento-web-com-angular-e-react)
 
-![Front-end Specialist](https://github.com/marcelobarbieri/fiap_frontendspecialist/blob/main/Assets/frontendspecialist.png)
+![Front-end Specialist](https://github.com/marcelobarbieri/fiap_frontendspecialist/blob/main/assets/frontendspecialist.png)
 
 [Lógica de Programação](https://github.com/marcelobarbieri/js_logica/tree/main/LogicaDeProgramacao)
 
