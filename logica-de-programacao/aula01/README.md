@@ -80,7 +80,7 @@ As contantes recebem valores no momento da sua declaração e não podem ter seu
 
 ## GIT
 
-```ps
+```cmd
 git config --global user.email "<email>"
 git config --global user.name "<nome>"
 
