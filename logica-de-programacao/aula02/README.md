@@ -10,7 +10,7 @@ index.html
 
 index.html
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -27,7 +27,7 @@ index.html
 
 script.js (exemplo 1)
 
-```
+```js
 let idade=parseInt(prompt("Digite a sua idade:"));
 if(idade>=12){
     alert("Você pode jogar!");
@@ -38,7 +38,7 @@ if(idade>=12){
 
 script.js (exemplo 2)
 
-```
+```js
 // pessoas até 11 anos não podem jogar
 // pessoas com 12 anos, somente com a permissão dos pais
 // pessoas acima de 12 anos, podem jogar
