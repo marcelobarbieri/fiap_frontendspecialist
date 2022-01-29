@@ -1,4 +1,4 @@
-# Lógica de Programação
+# JavaScript: Lógica de Programação (Primeiros Passos)
 
 [Aula 1](https://github.com/marcelobarbieri/js_logica/tree/main/logica-de-programacao/aula01)
 
