@@ -5,6 +5,17 @@
 
 ## Desvios Condicionais
 
+Estruturas de programação que permite realizar instruções dependendo do resultado de uma condição booleana.
+
+Uma condição booleana é aquela cujo resultado só pode ser **verdadeiro** ou **falso**
+
+|Desvio Condicional|Descrição|
+|:---|:---|
+|*if*||
+|Encadeado (concatenado)|Trata-se do uso de um desvio condicional dentro de outro|
+
+**Desvio condicional encadeado (concatenado)** é utilizado quando deseja-se que um determinado teste lógico somente aconteça dependendo do resultado de um teste lógico anterior.
+
 ### Projeto Jogo ONG
 
 Nova pasta/ arquivos
