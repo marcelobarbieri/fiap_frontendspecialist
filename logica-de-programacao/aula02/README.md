@@ -68,6 +68,8 @@ if(idade<12){
 }
 ```
 
+---
+
 ### Projeto Estatuto ONG
 
 Nova pasta/ arquivos
@@ -116,4 +118,50 @@ if (doacao <= 1000) {
 let investimento = doacao * percentual;
 
 document.getElementById("investimento").innerHTML = investimento.toString();
+```
+
+---
+
+### Projeto Estatuto ONG
+
+Nova pasta/ arquivos
+
+    js/
+        script.js
+    index.html
+
+index.html
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Transporte eleitor
+        </title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h2>Sua situação</h2>
+        <p id="situacao"></p>
+
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
+```
+
+script.js
+
+```js
+let idade=parseInt(prompt("Digite sua idade:"));
+let retorno
+if (idade < 16) {
+    retorno = "Você não pode votar e nem embarcar!";    
+} else if (idade < 18) {
+    retorno = "Seu voto é facultativo."
+} else {
+    retorno = "Voto obrigatório, pode embarcar!"
+}
+
+document.getElementById("saida").innerHTML = retorno;
 ```
