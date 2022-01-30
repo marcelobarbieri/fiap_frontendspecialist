@@ -176,4 +176,10 @@ document.getElementById("saida").innerHTML = retorno;
 
 |Operador|Descrição|
 |:---:|:---|
-|||
+|==|Os dois valores são iguais|
+|=|Atribuição do valor|
+|>|O valor da esquerda é maior que o da direita|
+|<|O valor da esquerda é menor que o da direita|
+|>=|O valor da desquerda é maior ou igual que o da direita|
+|<=|O valor da esquerda é menor ou igual que o da direita|
+|!=|O valor da esquerda é diferente do valor da direita|
