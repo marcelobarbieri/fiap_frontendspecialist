@@ -31,10 +31,10 @@ Uma condição booleana é aquela cujo resultado só pode ser **verdadeiro** ou 
 
 ## Operadores Lógicos
 
-| Operador |         Nome          | Significado                                                                                                                                     |
-| :------: | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-|    !     |      não (_not_)      | Inverte o estado lógico da condição                                                                                                             |
-|    &&    | e condicional (_and_) | Retorna verdadeiro se aprimeira condição e a segybda forem verdadeiras. Caso a primeira condição seja falsa, a segunda nem chega a ser avaliada |
-|          |                       |                                                                                                                                                 | ou condicional (_or_) | Retorna verdadeiro se pelo menos uma das condições forem verdadeiras. Caso a primeira condição seja fala, a segunda nem chega a ser avaliada |
+|Operador|Nome|Significado|
+|:---:|:---:|:---| 
+|!|não (*not*)|Inverte o estado lógico da condição|
+|&&|e condicional (*and*)|Retorna verdadeiro se aprimeira condição e a segybda forem verdadeiras. Caso a primeira condição seja falsa, a segunda nem chega a ser avaliada|
+||||ou condicional (*or*)|Retorna verdadeiro se pelo menos uma das condições forem verdadeiras. Caso a primeira condição seja fala, a segunda nem chega a ser avaliada|
 
 ## Switch Case
