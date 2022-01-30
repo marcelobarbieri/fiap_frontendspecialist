@@ -6,7 +6,7 @@
 
 [Aula 2](https://github.com/marcelobarbieri/js_logica/tree/main/logica-de-programacao/aula02)
 
-> Estruturas condicionais, operadores lógicos e swith case
+> Estruturas condicionais, operadores lógicos e switch case
 
 Aula 3
 
