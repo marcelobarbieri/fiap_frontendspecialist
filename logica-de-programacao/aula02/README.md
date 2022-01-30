@@ -177,7 +177,7 @@ document.getElementById("saida").innerHTML = retorno;
 |Operador|Descrição|
 |:---:|:---|
 |==|Os dois valores são iguais|
-|=|Atribuição do valor|
+|=|Atribuição do valor| (não é uma comparação)
 |>|O valor da esquerda é maior que o da direita|
 |<|O valor da esquerda é menor que o da direita|
 |>=|O valor da desquerda é maior ou igual que o da direita|
