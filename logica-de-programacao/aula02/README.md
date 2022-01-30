@@ -38,3 +38,9 @@ Uma condição booleana é aquela cujo resultado só pode ser **verdadeiro** ou 
 |\|\||ou condicional (*or*)|Retorna verdadeiro se pelo menos uma das condições forem verdadeiras. Caso a primeira condição seja fala, a segunda nem chega a ser avaliada|
 
 ## Switch Case
+
+Estrutura de seleção.
+
+Indicado para situações em que todos os casos possíveis de valor para uma variável são conhecidos, sem considerar intervalos.
+
+
