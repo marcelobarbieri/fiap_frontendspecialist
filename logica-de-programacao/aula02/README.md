@@ -19,15 +19,15 @@ Uma condição booleana é aquela cujo resultado só pode ser **verdadeiro** ou 
 
 > Tipos numéricos
 
-| Operador | Descrição                                              |
-| :------: | :----------------------------------------------------- | ---------------------- |
-|    ==    | Os dois valores são iguais                             |
-|    =     | Atribuição do valor                                    | (não é uma comparação) |
-|    >     | O valor da esquerda é maior que o da direita           |
-|    <     | O valor da esquerda é menor que o da direita           |
-|    >=    | O valor da desquerda é maior ou igual que o da direita |
-|    <=    | O valor da esquerda é menor ou igual que o da direita  |
-|    !=    | O valor da esquerda é diferente do valor da direita    |
+|Operador|Descrição|
+|:---:|:---|
+|   ==    | Os dois valores são iguais                             |
+|   =     | Atribuição do valor (não é uma comparação) |
+|   >     | O valor da esquerda é maior que o da direita           |
+|   <     | O valor da esquerda é menor que o da direita           |
+|   >=    | O valor da desquerda é maior ou igual que o da direita |
+|   <=    | O valor da esquerda é menor ou igual que o da direita  |
+|   !=    | O valor da esquerda é diferente do valor da direita    |
 
 ## Operadores Lógicos
 
@@ -35,6 +35,6 @@ Uma condição booleana é aquela cujo resultado só pode ser **verdadeiro** ou 
 |:---:|:---:|:---| 
 |!|não (*not*)|Inverte o estado lógico da condição|
 |&&|e condicional (*and*)|Retorna verdadeiro se aprimeira condição e a segybda forem verdadeiras. Caso a primeira condição seja falsa, a segunda nem chega a ser avaliada|
-||||ou condicional (*or*)|Retorna verdadeiro se pelo menos uma das condições forem verdadeiras. Caso a primeira condição seja fala, a segunda nem chega a ser avaliada|
+|\|\||ou condicional (*or*)|Retorna verdadeiro se pelo menos uma das condições forem verdadeiras. Caso a primeira condição seja fala, a segunda nem chega a ser avaliada|
 
 ## Switch Case
