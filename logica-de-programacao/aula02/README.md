@@ -165,3 +165,15 @@ if (idade < 16) {
 
 document.getElementById("saida").innerHTML = retorno;
 ```
+
+
+
+
+
+## Comparações
+
+> Tipos numéricos
+
+|Operador|Descrição|
+|:---:|:---|
+|||
