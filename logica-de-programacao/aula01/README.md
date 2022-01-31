@@ -12,6 +12,8 @@
 
 > Prettier - Code formatter
 
+> Live Server
+
 ## JavaScript
 ### Um pouco da história
 ### Tipos de Dados
