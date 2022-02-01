@@ -37,6 +37,20 @@ Uma condição booleana é aquela cujo resultado só pode ser **verdadeiro** ou 
 |&&|e condicional (*and*)|Retorna verdadeiro se aprimeira condição e a segybda forem verdadeiras. Caso a primeira condição seja falsa, a segunda nem chega a ser avaliada|
 |\|\||ou condicional (*or*)|Retorna verdadeiro se pelo menos uma das condições forem verdadeiras. Caso a primeira condição seja fala, a segunda nem chega a ser avaliada|
 
+### Tabela Verdade
+
+|Condição 1|Condição 2|Operador E|Operador OU|
+|:---:|:---:|:---:|:---:|
+|Verdadeiro|Verdadeiro|Verdadeiro|Verdadeiro|
+|Verdadeiro|Falso|Falso|Verdadeiro|
+|Falso|Verdadeiro|Falso|Verdadeiro|
+|Falso|Falso|Falso|Falso|
+
+|Condição|Operador NÃO|
+|:---:|:---:|
+|Verdadeiro|Falso|
+|Verdadeiro|Verdadeiro|
+
 ## Switch Case
 
 Estrutura de seleção.
