@@ -4,6 +4,10 @@
 
 ![Front-end Specialist](https://github.com/marcelobarbieri/fiap_frontendspecialist/blob/main/assets/frontendspecialist.png)
 
+
+<details><summary>Módulos</summary>
+<p>
+  
 > [JavaScript: Lógica de Programação (Primeiros Passos)](https://github.com/marcelobarbieri/js_logica/tree/main/logica-de-programacao)
 
 > Prototipação: UX, UI, FIGMA & SEO
@@ -13,6 +17,10 @@
 > Advanced Frameworks: React
 
 > Advanced Frameworks: Angular
+
+</p>
+</details>
+
 
 
 
