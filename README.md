@@ -8,15 +8,15 @@
 <details><summary>Módulos</summary>
 <p>
   
-> [JavaScript: Lógica de Programação (Primeiros Passos)](https://github.com/marcelobarbieri/js_logica/tree/main/logica-de-programacao)
+- [JavaScript: Lógica de Programação (Primeiros Passos)](https://github.com/marcelobarbieri/js_logica/tree/main/logica-de-programacao)
 
-> Prototipação: UX, UI, FIGMA & SEO
+- Prototipação: UX, UI, FIGMA & SEO
 
-> Front: Programação (HTML, CSS, SASS & Bootstrap)
+- Front: Programação (HTML, CSS, SASS & Bootstrap)
 
-> Advanced Frameworks: React
+- Advanced Frameworks: React
 
-> Advanced Frameworks: Angular
+- Advanced Frameworks: Angular
 
 </p>
 </details>
@@ -24,9 +24,9 @@
 <details><summary>Referências</summary>
 <p>
   
-> [MDN Web Docs](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [MDN Web Docs](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
   
-> [W3Schools](https://www.w3schools.com/js/default.asp)
+- [W3Schools](https://www.w3schools.com/js/default.asp)
 
 </p>
 </details>
