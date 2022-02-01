@@ -21,7 +21,15 @@
 </p>
 </details>
 
+<details><summary>Referências</summary>
+<p>
+  
+> [MDN Web Docs](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+  
+> [W3Schools](https://www.w3schools.com/js/default.asp)
 
+</p>
+</details>
 
 
 
