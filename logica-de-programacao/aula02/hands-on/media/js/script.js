@@ -2,8 +2,8 @@ let nota1=parseFloat(prompt("Nota 1 (0-10):"));
 let nota2=parseFloat(prompt("Nota 2 (0-10):"));
 let media = (nota1 + nota2) / 2;
 
-let aulasDadas=prompt("Aulas dadas:");
-let aulasAssistidas=prompt("Aulas assistidas:");
+let aulasDadas=parseInt(prompt("Aulas dadas:"));
+let aulasAssistidas=parseInt(prompt("Aulas assistidas:"));
 let frequencia= (aulasAssistidas/aulasDadas) * 100;
 
 let situacao
