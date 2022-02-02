@@ -1,6 +1,6 @@
 # Aula 3
 
-> Laços de Repetição: for, while
+> Laços de repetição: for, while
 
 ## Loop
 
