@@ -8,7 +8,7 @@
 
 > Estruturas condicionais, operadores lógicos e switch case
 
-Aula 3
+[Aula 3](https://github.com/marcelobarbieri/fiap_frontendspecialist/tree/main/logica-de-programacao/aula03)
 
 > Laços de Repetição: For, While
 
