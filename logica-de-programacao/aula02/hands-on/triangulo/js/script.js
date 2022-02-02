@@ -1,19 +1,17 @@
-let x = parseFloat(prompt("X:"));
-let y = parseFloat(prompt("Y:"));
-let z = parseFloat(prompt("Z:"));
+let l1 = parseFloat(prompt("Lado 1:"));
+let l2 = parseFloat(prompt("Lado 2:"));
+let l3 = parseFloat(prompt("Lado 3:"));
 
-if ((x >= (y+z)) ||
-    (y >= (x+z)) ||
-    (z >= (x+y))) {
+if ((l1 >= (l2+l3)) ||
+    (l2 >= (l1+l3)) ||
+    (l3 >= (l1+l2))) {
     alert("Não forma um triangulo");
 } else {
-    if ((x==y) && (x==z) && (y==z)) {
+    if ((l1==l2) && (l1==l3)) {
         alert("Triangulo equilátero.");
-    } else if (((x==y)&&(x!=z)) ||
-               ((x==z)&&(x!=y)) ||
-               ((y==z)&&(y!=x))) {
-        alert("Triangulo isoceles.");
-    } else {
+    } else if (l1!=l2 && l1!=l3 && l2!=l3) {
         alert("Triangulo escaleno");
+    } else {        
+        alert("Triangulo isoceles.");
     }
 }
