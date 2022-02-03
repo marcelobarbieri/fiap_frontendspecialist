@@ -92,6 +92,28 @@ alert(n.toFixed(3));
 /* resultado: 81 (arredondou para 80.907) */            
 ```
 
+- toPrecision()   
+    
+```js
+var n = new Number("54.47849");    
+    
+alert(n.toPrecision());    
+/* este parâmetro é opcional */    
+/* - vazio, retornará o número informado */
+/* - preenchido retornará o número com a quantidade de dígitos definida no parâmetro */    
+/* resultado: 54.47849 */    
+    
+alert(n.toPrecision(1));    
+/* resultado: 5e+1 */    
+/* retorna em notação científica, cabe dentro de 1 */    
+/* obs.: com precisão menor que 3, o número será convertido para notação científica */    
+    
+alert(n.toPrecision(5));        
+/* retorna o número com a quantidade de dígitos definida no parâmetro */    
+/* resultado: 54.478 */        
+/* retorna um número igual ao informado com 5 dígitos */     
+```
+    
 </details>    
 
 <!--
