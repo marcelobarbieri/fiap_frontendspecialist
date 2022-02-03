@@ -1,4 +1,6 @@
-# Fatorial
+# Looping While
+
+## Fatorial
 
 ```
 index.html
@@ -28,13 +30,12 @@ js/
     </body>
 </html>    
 ```
-    
-    <p></p>
+
 </details>
 
 <details>
     <summary>script.js</summary>
-    
+        
 ```js
 function quantidade() {
     let num1=parseInt(document.getElementById("num1").value);
@@ -52,6 +53,5 @@ function quantidade() {
     document.getElementById("resultado").innerHTML = `Resultado: ${res}`;
 }    
 ```    
-    
-    <p></p>
+        
 </details>
