@@ -1,11 +1,11 @@
 function calcular() {
-    let num = document.getElementById("num").value;
+    let num = parseInt(document.getElementById("num").value);
     let res = 1;
 
-    do {
+    while (num >= 1) {
         res *= num;
         num--;
-    } while(num>=1);
+    }
 
     document.getElementById("resultado").innerHTML = `Resultado: ${res}`;
 }
