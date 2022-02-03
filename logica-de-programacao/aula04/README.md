@@ -17,7 +17,9 @@ Exceções: **Global** e **Math**
 
 ![Objetos Nativos](https://github.com/marcelobarbieri/fiap_frontendspecialist/blob/main/assets/objetosnativos.png)
 
-<details><summary>Tipo Object</summary>
+### Tipos
+
+<details><summary>Object</summary>
 
 Tipo genérico de objeto. Usado para representar qualquer objeto criado com *new*
 
@@ -60,12 +62,12 @@ alert(n.valueOf());
     
 </details>    
 
-<details><summary>Tipo Number</summary>
+<details><summary>Number</summary>
 
 </details>    
 
 <!--
-<details><summary>Tipo Number</summary>
+<details><summary>Number</summary>
 
 </details>    
 -->
