@@ -15,5 +15,45 @@ Exceções: **Global** e **Math**
 
 > Qualquer elemento torna-se um objeto em JavaScript, desde uma string primitiva (que é convertida em objeto quanto necessário) até um array.
 
-![](https://github.com/marcelobarbieri/fiap_frontendspecialist/blob/main/assets/objetosnativos.png)
+![Objetos Nativos](https://github.com/marcelobarbieri/fiap_frontendspecialist/blob/main/assets/objetosnativos.png)
 
+### Tipo Object
+
+Tipo genérico de objeto. Usado para representar qualquer objeto criado com *new*
+
+> Métodos
+- toString(): transforma qualquer objeto em uma representação
+- stringvalueOf(): converte qualquer objeto em seu valor primitivo
+
+<details><summary>Exemplo</summary>
+
+```
+index.html
+js/
+    script.js
+```    
+    
+index.html    
+    
+```html
+<!DOCTYPE html>  
+<html>
+    <head>
+        <title>Objetos Nativos</title>
+    </head>
+    <body>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>  
+```
+  
+script.js
+
+```js
+d=new Date();
+alert(d.toString());    
+    
+n=new Number(1000);
+alert(n.valueOf());    
+```
+</details>
