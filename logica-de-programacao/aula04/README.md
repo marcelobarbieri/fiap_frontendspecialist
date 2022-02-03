@@ -27,7 +27,7 @@ Tipo genérico de objeto. Usado para representar qualquer objeto criado com *new
 - toString(): transforma qualquer objeto em uma representação
 - stringvalueOf(): converte qualquer objeto em seu valor primitivo
 
-<details><summary>Exemplo</summary>
+> Exemplo
 
 ```
 index.html
@@ -58,7 +58,6 @@ alert(d.toString());
 n=new Number(1000);
 alert(n.valueOf());    
 ```
-</details>
     
 </details>    
 
