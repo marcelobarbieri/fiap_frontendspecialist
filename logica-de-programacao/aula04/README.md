@@ -4,20 +4,20 @@
 
 ## Objetos Nativos JavaScript 
 
-> Criados e mantidos pelo navegador para acessar os elementos do documento.
+- Criados e mantidos pelo navegador para acessar os elementos do documento.
 Fazem parte do núcleo da linguagem.
 
-> Nem todos os objetos nativos tem construtores.
+- Nem todos os objetos nativos tem construtores.
 Ou seja, não são criado automaticamente.
 Exceções: **Global** e **Math**
 
-> Englobam praticamente tudo o que a linguagem oferece.
+- Englobam praticamente tudo o que a linguagem oferece.
 
-> Qualquer elemento torna-se um objeto em JavaScript, desde uma string primitiva (que é convertida em objeto quanto necessário) até um array.
+- Qualquer elemento torna-se um objeto em JavaScript, desde uma string primitiva (que é convertida em objeto quanto necessário) até um array.
 
 ![Objetos Nativos](https://github.com/marcelobarbieri/fiap_frontendspecialist/blob/main/assets/objetosnativos.png)
 
-### Tipo Object
+<details><summary>Tipo Object</summary>
 
 Tipo genérico de objeto. Usado para representar qualquer objeto criado com *new*
 
@@ -57,3 +57,15 @@ n=new Number(1000);
 alert(n.valueOf());    
 ```
 </details>
+    
+</details>    
+
+<details><summary>Tipo Number</summary>
+
+</details>    
+
+<!--
+<details><summary>Tipo Number</summary>
+
+</details>    
+-->
