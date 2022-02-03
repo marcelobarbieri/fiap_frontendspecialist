@@ -17,7 +17,7 @@ Exceções: **Global** e **Math**
 
 ![Objetos Nativos](https://github.com/marcelobarbieri/fiap_frontendspecialist/blob/main/assets/objetosnativos.png)
 
-### Tipos
+### Tipos:
 
 <details><summary>Object</summary>
 
@@ -62,6 +62,35 @@ alert(n.valueOf());
 </details>    
 
 <details><summary>Number</summary>
+
+Usado para representar números como objetos.
+
+A principal utilidade é disponibilizar algumas constantes globais:
+    
+|Função|Valor|
+|:---|:---:|
+|Number.MAX_VALUE|1.79e+308|
+|Number.MIN_VALUE|5e-324|    
+|Number.NaN|NaN|
+|Number.POSITIVE_INFINITY|-Infinity|
+|Number.NEGATIVE_INFINITY|Infinity|
+    
+> Funções:
+    
+- toFixed()
+
+```js
+var n = new Number("80.90674");    
+/* o método toFixed retorna o número de casas decimais definidas dentro do parâmetro */    
+
+alert(n.toFixed());    
+/* com os parâmetros vazios, ele retorna um número sem casas decimais. */    
+/* resultado: 81 (arredondou para 81) */        
+    
+alert(n.toFixed(3));    
+/* para obter a quantidade de casas decimais desejadas, declarar dentro dos parenteses */    
+/* resultado: 81 (arredondou para 80.907) */            
+```
 
 </details>    
 
