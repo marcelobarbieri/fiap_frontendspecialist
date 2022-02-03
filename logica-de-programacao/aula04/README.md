@@ -114,6 +114,27 @@ alert(n.toPrecision(5));
 /* retorna um número igual ao informado com 5 dígitos */     
 ```
     
+- toExponential()
+    
+```js
+/* o parâmetro nessa função é opcional */    
+/* se for passado algum parâmetro deve estar compreendido entre 0 e 20 */
+    
+var n = new Number("54.47849");    
+alert(n.toExponential());    
+/* aqui se não for passado nenhum parâmetro, */
+/* o número será transformado em notação científica, */
+/* com a precisão necessária para representar o número todo */    
+/* resultado: 5.447849e+1 */    
+    
+var n = new Number("54.47849");    
+alert(n.toExponential(5));    
+/* se for declarado um parâmetro, nesse exemplo 5, */    
+/* o número será transformado em notação científica, */    
+/* com a precisão possível ao número declarado */    
+/* resultado: 5.44785e+1 */    
+```    
+    
 </details>    
 
 <!--
