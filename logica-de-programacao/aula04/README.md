@@ -308,7 +308,7 @@ alert(x.toLowerCase());
     
 </details>    
 
-<details><summary>Date<summary>
+<details><summary>Date</summary>
     
 O objeto Date utiliza datas disponíveis no sistema operacional da máquina que está rodando o script.
 Ao solicitar para o JavaScript, data e hora atual, estas serão recuperadas do SO do computador do usuário.
