@@ -186,15 +186,129 @@ alert(x.charCodeAt(x.lenght - 1));
     
 > Padrão **Unicode**
 
-O que aparece como texto na tela está armazenado como **valores numéricos** no arquivo de texto.
-O computador traduz os valores numéricos em **caracteres visíveis**.
-Ele faz isso usando um **padrão de codificação**.
+O que aparece como texto na tela está armazenado como *valores numéricos* no arquivo de texto.
+O computador traduz os valores numéricos em *caracteres visíveis*.
+Ele faz isso usando um *padrão de codificação*.
 Um padrão de codificação é um esquema numérico que atribui cada caractere de texto, em um conjunto de caracteres, a um valor numérico.
 Um conjunto de caracteres pode incluir caracteres alfa-numéricos, números e outros símbolos. 
-**Idiomas diferentes consistem normalmente de conjuntos diferentes de caracteres.**    
+*Idiomas diferentes consistem normalmente de conjuntos diferentes de caracteres.*    
 Muitos padrões de codificação diferentes existem para representar os conjuntos de caracteres usados em idiomas diferentes.    
     
+- concat()
     
+```js
+var x = new String("Criando uma String");    
+alert(x.concat(" e concatenado com outra"));    
+/* resultado: criando uma string e concatenando com outra o método concat, concatena duas strings */    
+```    
+  
+- fromCharCode()
+    
+```js
+var x = new String();
+alert(String.fromCharCode(66));    
+/* resultado: B */    
+/* método estático (acessado direto da classe String) */    
+/* converte o valor unicode para uma string */    
+/* exemplo: o valor unicode da letra a é... */    
+```
+    
+- indexOf()
+    
+```js
+var x = new String("Criando uma String");    
+alert(x.indexOf("uma"));    
+/* retorna a posição de uma determinada string */    
+/* nesse exemplo uma, começa na posição 8 */    
+/* resultado: 8 */     
+```    
+    
+- lastIndexOf()
+    
+```js
+var x = new String("String. Criando uma String");    
+alert(x.lastIndexOf("String"));    
+/* resultado: 20 */    
+/* retorna a última posição de uma determinada string */    
+/* nesse exemplo string, começa na posição 20 */    
+```    
+    
+- match()
+    
+```js
+/* a função match é usada junto com Regex, que são expressões regulares */    
+var x = new String("String. Criando uma String");    
+    
+var re = /i/; /* sempro dentro de barras */    
+alert(x.match(re));    
+/* resultado: i */    
+    
+var re2=/z/;
+alert(x.match(re2)); 
+/* como a letra z não está presente na string, o retorno é null*/
+```   
+    
+- replace()
+    
+```js
+/* substitui uma determinada string por outra em um texto */    
+var x = new String("String.Criando uma String");    
+alert(x.replace("String","Teste"));    
+/* faz a atualização na primeira ocorrência da palavra String */    
+/* resultado: Teste. Criando uma Teste */    
+```    
+    
+- substring()
+    
+```js
+/* recorta uma determinada string, especificada dentro do parênteses */    
+
+var x = new String("String. Criando uma String");
+alert(x.substring(7,15));    
+/* resultado: Criando */    
+```    
+    
+- substr()
+    
+```js
+/* é o mesmo que substring(), só que mais rigoroso */
+    
+/* também tem dois parâmetro e extrai os caracteres entre dois índices especificados */    
+/* informa o parâmetro do índice inicial, nesse caso o C, e mais 15 caracteres na frente */    
+
+    
+var x = new String("String. Criando uma String");
+alert(x.substr(7,15));    
+/* resultado: Criando uma St */     
+    
+alert(x.substr(15,7));    
+/* se o número maior vier primeiro ele não dará retorno */    
+/* resultado: sem retorno */    
+```        
+
+- split()    
+    
+```js
+/* Faz o recorte com base em um separador */    
+var x = new String("String, Criando uma String");    
+alert(x.split(",") [0]);    
+/* Resultado: Criando uma String */    
+```    
+    
+- toUpperCase() e toLowerCase()
+
+```js
+/* o primeiro deixa o texto em letras maiusculas e o segundo em letras minúsculas */    
+var x = new String("String, Criando uma String");    
+alert(x.toUpperCase());    
+alert(x.toLowerCase());        
+/* resultado: STRING, CRIANDO UMA STRING */    
+/* resultado: string, criando uma string */
+```    
+    
+</details>    
+
+<details><summary>Date<summary>
 </details>    
 
 
