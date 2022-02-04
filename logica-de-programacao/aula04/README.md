@@ -137,6 +137,67 @@ alert(n.toExponential(5));
     
 </details>    
 
+<details><summary>String</summary>
+
+String é uma palavra, texto ou número, colocados preferencialmente dentro de aspas duplas, ou simples.
+    
+```js
+var x = new String("Criando uma String");    
+alert(x);    
+/* será apresentado em uma caixa de alerta*/    
+/* resultado: Criando uma String */    
+``` 
+
+> Funções:
+    
+- lenght   
+    
+```js
+/* lenght retorna o tamanho da String */    
+/* conta todos os caracteres, inclusive os espaços */    
+    
+var x = new String("Criando um String");
+alert(x.length);    
+/* resultado: 18 */    
+```    
+
+- charAt()
+    
+```js
+var x = new String("Criando uma String");
+alert(x.charAt(4));    
+/* resultado: n */    
+/* esse método retorna a posição indicada no parâmetro e começa na posição 0 */    
+/* nesse caso, como foi passado como parâmetro o número 4, o resultado será n */
+/* (na posição 4 da string fica a letra n) */    
+/* se fosse na posição 7, por exemplo, a janela apareceria vazia, */    
+/* representando o espaço em branco, pois ele também entra na contagem */    
+```    
+
+- charCodeAt()
+
+```js
+var x = new String("Criando uma String");
+alert(x.charCodeAt(x.lenght - 1));    
+/* resultado: 67 */    
+/* o método charCodeAt retorna da mesma forma que charAt, */    
+/* só que no padrão Unicode */        
+```
+    
+> Padrão **Unicode**
+
+O que aparece como texto na tela está armazenado como **valores numéricos** no arquivo de texto.
+O computador traduz os valores numéricos em **caracteres visíveis**.
+Ele faz isso usando um **padrão de codificação**.
+Um padrão de codificação é um esquema numérico que atribui cada caractere de texto, em um conjunto de caracteres, a um valor numérico.
+Um conjunto de caracteres pode incluir caracteres alfa-numéricos, números e outros símbolos. 
+**Idiomas diferentes consistem normalmente de conjuntos diferentes de caracteres.**    
+Muitos padrões de codificação diferentes existem para representar os conjuntos de caracteres usados em idiomas diferentes.    
+    
+    
+</details>    
+
+
 <!--
 <details><summary>Number</summary>
 
