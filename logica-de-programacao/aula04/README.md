@@ -315,7 +315,118 @@ Ao solicitar para o JavaScript, data e hora atual, estas serão recuperadas do S
 Se forem alteradas, isso terá consequências no script utilizado.
 Deve-se observar a diferença nos dois horários.    
     
-...
+Lembrete: Existem funções no objeto Date que servem para trabalhar a hora local e a hora mundial. A hora é determinada pelo meridiano de Greenwich, que serve de referência 
+para calcular distâncias em longitudes e estabelecer fusos horários. Cada fuso horário corresponde a uma faixa de quinze graus de longitude de largura, sendo a hora de Greenwich chamada de Greenwich Mean Time (GMT). Alguém que está no Brasil, não poderá se orientar, se uma vídeo conferência for marcada na hora local da Inglaterra, por exemplo. Mas se for feita, no horário mundial, os envolvidos, terão a mesma referência. Isto é resolvido, com as funções que têm UTC = Universal Time Coordinated.
+    
+UTC = GMT (Greewich Mean Time)
+Hora Brasil = Hora GMT - 3 Horas
+    
+> Funções:
+    
+- Construtor
+    
+```js
+// sem parâmetros: retorna o dia e a hora atual
+var data = new Date();
+alert(data);    
+    
+// com strings
+var data = new Date("Dec/03/1958 11:20:30");    
+alert(data);    
+// resultado: Wed Dec 03 1958 11:20:30 GMT-0200 (Hora oficial do Brasil)    
+    
+var data = new Date(1986,4,24,8,30);
+// começa o mês em zero
+alert(data);
+// resultado: Thu Apr 24 08:30:00 UTC-0300 1986    
+```    
+    
+- Hora Local e Universal
+    
+```js
+// diferença entre hora local e hora universal
+var data = new Date();
+alert(`Hora local ${data.getHours()}`);    
+alert(`Hora universal ${data.getUTCHours()}`);    
+    
+// formato americano
+var data = new Date("Dec/22/2013 09:51:20");    
+alert(`Hora local ${data.getHours()}`);    
+alert(`Hora universal ${data.getUTCHours()}`);        
+```    
+
+- Método get()
+    
+```js
+// os métodos gets são para recuperar uma informação
+var dias = ["Domingo","segunda","terça","quarta","quinta","sexta","sábado"];    
+    
+// construtor vazio, retorna a hora atual    
+var data = new Date(); 
+    
+alert(data.getHours());         // retorna a hora
+alert(data.getMilliseconds());  // retorna os milissegundos
+alert(data.getMinutes());       // retorna os minutos
+alert(data[data.getDay()]);     // retorna o dia da semana
+alert(data.getDate());          // retorna o dia do mês
+alert(data.getFullYear());      // ano com quatro dígitos
+```   
+    
+- Método set()
+    
+```js
+var dias = ["Domingo","segunda","terça","quarta","quinta","sexta","sábado"];    
+    
+var mes = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"];    
+    
+var data = new Date("Oct/17/2021 13:30:40");    
+data.setFullYear(2016);
+data.setDate(04);    
+data.setMonth(11);
+    
+alert(data);
+```    
+    
+</details>    
+
+<details><summary>Math</summary>
+    
+O objeto Math auxilia na criação de scripts para realizar operações matemáticas. Este objeto não precisa de um construtor. Para os outro objetos cria-se um new, mas math tem as funções e as propriedades estáticas (acesso direto pela classe Math.) As propriedades do objeto são constantes matemáticas notáveis.
+
+> Funções
+
+```js
+alert(Math.PI);                 // valor de PI = 3.14...
+alert(Math.abs(-5.9));          // número absoluto = 5.9
+alert(Math.max(5.9,6,12,-80));  // maior número = 12
+alert(Math.round(12.7));        // arredonda para o inteiro mais próximo = 13
+alert(Math.ceil(12.2));         // arredonda para cima = 13
+alert(Math.floor(12.9));        // arredonda para baixo = 12
+alert(Math.pow(3,2));           // exponencial = 9
+alert(Math.sqrt(16));           // raiz quadrada = 4
+``` 
+
+> Número Aleatórios    
+
+Um gerador de números aleatórios é um dispositivo computacional ou físico que gera uma sequência de números ou símbolos sem qualquer padrão, (pseudo)aleatoriamente. Ele gera números entre 0 e 1. Em JavaScript esses números são gerados com o método random() do objeto Math que permite obter números (pseudo)aleatórios para diversos usos em scripts.
+    
+- random()
+    
+```js
+```    
+    
+> Funções Diversas
+    
+```js
+alert(Math.log(5));     // logaritmo de 5   
+alert(Math.sin(5));     // retorna o seno do angulo informado
+alert(Math.cos(5));     // retorna o cosseno do angulo informado
+alert(Math.tan(5));     // retorna a tangente do angulo informado
+alert(Math.asin(0));    // retorna o valor em radianos, representando o arco, cujo seno foi informado
+alert(Math.acos(0));    // retorna o valor em radianos, representando o arco, cujo cosseno foi informado
+alert(Math.atan(0));    // retorna o valor em radianos, representando o arco, cujo tangente foi informado
+alert(Math.atan2(2,2)); // retorna o valor numérico entre -pi e pi, representando o arco em radianos, cuja atangente é igual ao quociente dos parâmetros informados
+```    
     
 </details>    
 
