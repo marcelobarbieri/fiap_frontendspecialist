@@ -413,6 +413,23 @@ Um gerador de números aleatórios é um dispositivo computacional ou físico qu
 - random()
     
 ```js
+alert(Math.random()); 
+// o resultado é um número entre 0 e 1, com vários algarismos
+
+alert(Math.random() * 6);    
+// o resultado é um número entre 0 e 5, com vários algarismos
+    
+alert(Math.floor(Math.random()*10));    
+// o resultado é um número entre 0 e 9 arredondado para baixo
+    
+alert(Math.floor((Math.random()*10)+1));    
+// o resultado é um número entre 1 e 10 arredondado para baixo
+    
+numAleat = Math.random() * 3; // número aleatório entre 0 e 2, com vários algarismos
+numAleat = Math.floor(numAleat); // arredonda o número aleatório para baixo
+numLimiteInf = 5 // define o limite inferior
+numAleat += numLimiteInf; // soma o o limite inferior ao número aleatório arredondado para baixo
+   
 ```    
     
 > Funções Diversas
@@ -436,3 +453,14 @@ alert(Math.atan2(2,2)); // retorna o valor numérico entre -pi e pi, representan
 
 </details>    
 -->
+
+# Referências
+
+- https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String 
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math 
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array 
+- https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM
+- https://www.w3schools.com/
+- http://docplayer.com.br/17393758-Javascript-eventos-e-objetos-nativos.html
+- https://www.adalgisa-souza.appspot.com/javaScript/
