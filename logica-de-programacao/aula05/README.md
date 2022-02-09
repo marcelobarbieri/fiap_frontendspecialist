@@ -1,4 +1,4 @@
-# Aula 5
+# Aula 5 - Arrays, Filter, Map, Reduce, Splite, forEach, for in, for of
 
 > Arrays, Filter, Map
 
