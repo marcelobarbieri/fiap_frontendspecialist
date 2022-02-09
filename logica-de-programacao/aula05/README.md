@@ -89,7 +89,7 @@ meuArray[1]=carros;
 O grande diferencial dos Arrays são suas propriedades e métodos integrados. 
 Vamos ver alguns deles.
 
-- length()
+<details><summary>length()</summary>
 
 Retorna a quantidade de elementos
 
@@ -105,7 +105,9 @@ alert(frutas[length-1]);
 // resultado: Manga
 ```
 
-- push()
+</details>
+
+<details><summary>push()</summary>
 
 Adiciona novo elemento
 
@@ -120,7 +122,9 @@ alert(frutas);
 
 ```
 
-- pop()
+</details>
+
+<details><summary>pop()</summary>
 
 Remove o último elemento de um array
 
@@ -134,7 +138,9 @@ alert(frutas);
 // resultado: Banana,Laranja,Maça
 ```
 
-- shift()
+</details>
+
+<details><summary>shift()</summary>
 
 Remove o primeiro elemento do vetor e traz todos os outros elementos para um índice antes.
 
@@ -148,7 +154,9 @@ alert(frutas);
 // resultado: Laranja,Maça,Manga
 ```
 
-- unshift()
+</details>
+
+<details><summary>unshift()</summary>
 
 Adiciona um novo elemento no início da fila empurrando os demais para baixo
 
@@ -161,8 +169,10 @@ frutas.unshift("Limão");
 // resultado: Limão,Banana,Laranja,Maça,Manga
 ```
 
-- delete
+</details>    
 
+<details><summary>delete()</summary>
+    
 Remove um elemento do Array.
 Deixa lacunas no Array
 
@@ -176,7 +186,9 @@ alert(frutas);
 // resultado: Banana,,Maça,Manga
 ```
 
-- splice()
+</details>    
+    
+<details><summary>splice()</summary>
 
 Adiciona novos elementos no Array.
 
@@ -193,8 +205,10 @@ frutas.splice(2,0,"Limão","Kiwi");
 alert(frutas);
 // resultado: Banana,Laranja,Limão,Kiwi,Maça,Manga
 ```
+    
+</details>        
 
-- join()
+<details><summary>join()</summary>
 
 O join() método também une todos os elementos do array em uma string. Ele se comporta exatamente como toString(), mas, além disso, você pode especificar o separador.
 
@@ -204,7 +218,9 @@ alert(frutas.join(" - "));
 // resultado: Banana - Laranja - Maça - Manga
 ```
 
-- concat()
+</details>
+    
+<details><summary>concat()</summary>
 
 O concat() cria uma nova matriz mesclando (concatenando) matrizes existentes.
 
@@ -217,7 +233,9 @@ alert(comidas);
 // resultado: Banana,Laranja,Maça,Manga,Couve,Brócolis
 ```
 
-- slice()
+</details>
+
+<details><summary>slice()</summary>
 
 O slice() divide uma parte de uma matriz em uma nova matriz, a partir do valor do parâmetro
 
@@ -228,7 +246,9 @@ alert(verduras);
 // resultado: Couve,Brócolis
 ```
 
-- sort e reverse
+<details>
+
+<details><summary>sort e reverse</summary>
 
 O sort() ordena um array, enquanto o reverse coloca os elementos em ordem inversa
 
@@ -244,7 +264,9 @@ alert(frutas);
 // resultado: Manga,Maçã,Laranja,Banana
 ```
 
-### Percorrendo um array
+</details>    
+    
+<details><summary>Percorrendo um array</summary>
 
 As duas melhores maneiras de se percorrer um Array são utilizando um FOR, um FOR EACH ou um MAP.
 
@@ -323,3 +345,4 @@ function minhaFuncao(value) {
 
 </details>
     
+</details>
