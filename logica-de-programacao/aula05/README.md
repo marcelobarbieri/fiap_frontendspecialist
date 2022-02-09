@@ -10,7 +10,8 @@ Arrays indexados são arrays que ao serem adicionados um elemento, estes recebem
 Por padrão, a posição inicial do Array é 0 (zero). 
 Todos os elementos dentro de um array estão armazenados dentro de um conjunto de chave e valor.
 
-Criando um array:
+Diferentes formas para criar um array:
+
 ```js
 const carros = ["Renegade","Toro","Ranger"];
 
@@ -52,7 +53,7 @@ alert(carros);
 // resultado: Renegade,Toro,Ranger
 ```
 
-### Arrays são objetos
+## Arrays são objetos
 
 Arrays são um tipo especial de objetos. 
 O operador typeof em JavaScript retorna "objeto" para arrays.
