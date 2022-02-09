@@ -271,7 +271,7 @@ index.html
 </html>
 ```
 
-- for
+<details><summary>for</summary>
 
 script.js
 ```js
@@ -285,8 +285,11 @@ text += "</ul>";
 document.getElementById("saida").innerHTML = text;
 ```
 
-- foreach
+</details>
+                                
+<details><summary>foreach</summary>
 
+script.js
 ```js
 const frutas = ["Banana","Laranja","Maçã","Manga"];
 
@@ -300,8 +303,11 @@ function minhaFuncao(value) {
 }
 ```
 
-- map
-
+</details>    
+    
+<details><summary>map</summary>    
+    
+script.js
 ```js
 const frutas = ["Banana","Laranja","Maçã","Manga"];
 
@@ -315,11 +321,5 @@ function minhaFuncao(value) {
 }
 ```
 
-
-
-
-
-
-
-
-
+</details>
+    
