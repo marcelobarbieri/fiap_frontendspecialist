@@ -248,8 +248,6 @@ alert(frutas);
 
 As duas melhores maneiras de se percorrer um Array são utilizando um FOR, um FOR EACH ou um MAP.
 
-- for
-
 ```
 index.html
 js/
@@ -273,6 +271,8 @@ index.html
 </html>
 ```
 
+- for
+
 script.js
 ```js
 const frutas = ["Banana","Laranja","Maçã","Manga"];
@@ -286,9 +286,40 @@ document.getElementById("saida").innerHTML = text;
 ```
 
 - foreach
+
 ```js
+const frutas = ["Banana","Laranja","Maçã","Manga"];
+
+let text = "<ul>";
+frutas.forEach(minhaFuncao);
+text += "</ul>";
+document.getElementById("saida").innerHTML = text;
+
+function minhaFuncao(value) {
+    text += "<li>" + value + "</li>";
+}
 ```
 
 - map
+
 ```js
+const frutas = ["Banana","Laranja","Maçã","Manga"];
+
+let text = "<ul>";
+frutas.map(minhaFuncao);
+text += "</ul>";
+document.getElementById("saida").innerHTML = text;
+
+function minhaFuncao(value) {
+    text += "<li>" + value + "</li>";
+}
 ```
+
+
+
+
+
+
+
+
+
