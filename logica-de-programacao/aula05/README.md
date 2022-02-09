@@ -53,8 +53,10 @@ alert(carros);
 // resultado: Renegade,Toro,Ranger
 ```
 
-## Arrays são objetos
+</details>    
 
+<details><summary>Arrays são objetos</summary>
+    
 Arrays são um tipo especial de objetos. 
 O operador typeof em JavaScript retorna "objeto" para arrays.
 Os arrays usam números para acessar seus "elementos". 
@@ -84,6 +86,8 @@ const carros=["Renegade","Toro","Ranger"];
 meuArray[0]=Date.now;
 meuArray[1]=carros;
 ```
+
+</details>    
 
 </details>    
     
