@@ -247,7 +247,7 @@ alert(verduras);
 // resultado: Couve,Brócolis
 ```
 
-<details>
+</details>
 
 <details><summary>sort e reverse</summary>
 
