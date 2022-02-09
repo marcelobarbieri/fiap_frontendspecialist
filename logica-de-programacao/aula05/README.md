@@ -84,7 +84,7 @@ meuArray[0]=Date.now;
 meuArray[1]=carros;
 ```
 
-### Propriedade e métodos dos arrays
+## Propriedade e métodos dos arrays
 
 O grande diferencial dos Arrays são suas propriedades e métodos integrados. 
 Vamos ver alguns deles.
