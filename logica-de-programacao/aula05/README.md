@@ -267,7 +267,7 @@ alert(frutas);
 
 </details>    
     
-<details><summary>Percorrendo um array</summary>
+## Percorrendo um array
 
 As duas melhores maneiras de se percorrer um Array são utilizando um FOR, um FOR EACH ou um MAP.
 
@@ -346,4 +346,4 @@ function minhaFuncao(value) {
 
 </details>
     
-</details>
+
