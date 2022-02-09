@@ -4,7 +4,7 @@
 
 > Reduce, Splite, forEach, for in, for of
 
-## Arrays JavaScript
+<details><summary>Arrays JavaScript</summary>
 
 Arrays indexados são arrays que ao serem adicionados um elemento, estes recebem uma posição dentro do array. 
 Por padrão, a posição inicial do Array é 0 (zero). 
@@ -85,7 +85,9 @@ meuArray[0]=Date.now;
 meuArray[1]=carros;
 ```
 
-## Propriedade e métodos dos arrays
+</details>    
+    
+<details><summary>Propriedade e métodos dos arrays</summary>
 
 O grande diferencial dos Arrays são suas propriedades e métodos integrados. 
 Vamos ver alguns deles.
@@ -267,7 +269,9 @@ alert(frutas);
 
 </details>    
     
-## Percorrendo um array
+</details>    
+    
+<details><summary>Percorrendo um array</summary>
 
 As duas melhores maneiras de se percorrer um Array são utilizando um FOR, um FOR EACH ou um MAP.
 
@@ -346,4 +350,4 @@ function minhaFuncao(value) {
 
 </details>
     
-
+</details>    
