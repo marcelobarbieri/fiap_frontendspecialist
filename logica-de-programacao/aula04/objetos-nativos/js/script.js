@@ -71,3 +71,4 @@
 // alert(Math.random()); // resultado aleatório entre 0 e 1
 // alert(Math.random() * 6); // resultado aleatório entre 0 e 5
 // alert((Math.random() * 6) + 1); // resultado aleatório entre 1 e 6
+
