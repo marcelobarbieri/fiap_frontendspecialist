@@ -174,4 +174,4 @@ alert(minhaVariavel); // Uncaught ReferenceError: minhaVariavel is not defined
 
 # Bibliografia
 
-
+![Bibliografia](https://github.com/marcelobarbieri/fiap_frontendspecialist/blob/main/assets/logica-bbl-aula06.png)
