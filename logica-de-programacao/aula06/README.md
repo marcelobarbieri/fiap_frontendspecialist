@@ -79,8 +79,95 @@ Usando parâmetro padrão, ao não passar um argumento, **o padrão será aplica
 
 E passando um argumento, ele será atribuído **normalmente** ao parâmetro.
 
+```js
+// exemplo 1
+
+function retorna(a=2) {
+    return a;
+}
+alert(retorna(3)); // 3
+alert(retorna());; // 2
+
+// function retorna(valor) {
+//     let a = 2;
+//     if (valor != undefined)
+//         a = valor;
+//     return a;
+// }
+
+// exemplo 2
+
+function gravarAluno(nome,telefone,cidade="São Paulo") {
+    return `${nome}, ${telefone}, ${cidade}`;
+}
+
+alert(gravarAluno("Alex","2222-2222"));
+alert(gravarAluno("Eduardo","3333-3333","Guarulhos"));
+
+// function gravarAluno(cidade) {
+//     let x="São Paulo";
+//     if (cidade != undefined)
+//         x=cidade;
+//     alert(x);
+// }
+
+// exemplo 3
+
+const pessoa = {
+    nome: "Alex",
+    idade: 45
+}
+
+function exibir(x) {
+    alert(`${x.nome} - ${x.idade}`);
+}
+
+exibir(pessoa);
+```
+
 - Outros Parâmetros
+
+Acabamos de ver como invocar funções passando como argumentos, valores **primitivos**. 
+Mas como funções são especiais, podem também **receber objetos e outras funções como argumentos**.
+
+Pode-se criar objetos separadamente e passá-los depois para dentro da função.
+
+```js
+const pessoa = [
+    {
+        nome: "Alex",
+        idade: 45
+    }, 
+    {
+        nome:"José",
+        idade: 60
+    }]
+
+function exibir(x) {
+    alert(`${x.nome} - ${x.idade}`);
+}
+
+exibir(pessoa[0]);
+exibir(pessoa[1]);
+```
 
 - Escopo de Funções
 
-Escopos são **limitadores** de acesso em programação, e podem ser utilizados para estabelecer, por exemplo, que determinados dados **não devem estar visíveis
+Escopos são **limitadores** de acesso em programação, e podem ser utilizados para estabelecer, por exemplo, que determinados dados **não devem estar visíveis para além das fronteiras** delimitadas por ele.
+
+Funções criam escopo e, quando invocadas, retornam para o mundo externo, apenas aquilo que estiver indicado através da instrução **return**
+
+```js
+function minhaFuncao() {
+    let minhaVariavel = "Variável no escopo de função";
+    return minhaVariavel;
+}
+alert(minhaFuncao()); // Variável no escopo de função
+alert(minhaVariavel); // Uncaught ReferenceError: minhaVariavel is not defined
+
+// utilizando let ou var 
+// alert(minhaVariavel); // Uncaught ReferenceError: minhaVariavel is not defined
+
+// sem utilizar let e var, escopo global 
+// alert(minhaVariavel); // Variável no escopo de função
+```
