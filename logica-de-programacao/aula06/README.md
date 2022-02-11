@@ -10,7 +10,7 @@ function name(params: any) {
 }
 ```
 
-- Funções Auto-Invocáveis
+## Funções Auto-Invocáveis
 
 Esse tipo de construção recebe o nome de função **auto-invocável**.
 Ou seja, ela executa assim que é **definida**.
@@ -24,7 +24,7 @@ Em inglês, é também chamada de **Immediately Invoked Function Expression (IIF
 ) ()
 ```
 
-- Object Arguments
+## Object Arguments
 
 Os argumentos que uma função recebe são guardados em um **objeto do tipo array** chamado de **arguments**.
 Quando você cria uma função, ela já vem com esse objeto embutido.
@@ -51,7 +51,7 @@ frutas("Laranja","Maçã","Kiwi","Mamão","Pera");
 // Pera
 ```
 
-- Operador Rest
+## Operador Rest
 
 A partir do ES6, surgiu o operador **rest**.
 Ele é representado por **reticências...**
@@ -68,7 +68,7 @@ function frutas(a, ...b) {
 frutas("Laranja","Maçã","Kiwi","Mamão","Pera");
 ```
 
-- Parâmetro Padrão
+## Parâmetro Padrão
 
 Outra novidade, surgida no mesmo pacote de especificações ES6, foi a dos parâmetros padrão.
 Vamos entender a utilidade deles.
@@ -125,7 +125,7 @@ function exibir(x) {
 exibir(pessoa);
 ```
 
-- Outros Parâmetros
+## Outros Parâmetros
 
 Acabamos de ver como invocar funções passando como argumentos, valores **primitivos**. 
 Mas como funções são especiais, podem também **receber objetos e outras funções como argumentos**.
@@ -151,7 +151,7 @@ exibir(pessoa[0]);
 exibir(pessoa[1]);
 ```
 
-- Escopo de Funções
+## Escopo de Funções
 
 Escopos são **limitadores** de acesso em programação, e podem ser utilizados para estabelecer, por exemplo, que determinados dados **não devem estar visíveis para além das fronteiras** delimitadas por ele.
 
