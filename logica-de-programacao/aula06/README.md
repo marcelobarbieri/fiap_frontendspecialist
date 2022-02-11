@@ -171,3 +171,7 @@ alert(minhaVariavel); // Uncaught ReferenceError: minhaVariavel is not defined
 // sem utilizar let e var, escopo global 
 // alert(minhaVariavel); // Variável no escopo de função
 ```
+
+# Bibliografia
+
+
