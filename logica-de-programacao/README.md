@@ -12,7 +12,7 @@
 
 > Laços de Repetição: For, While
 
-Aula 4
+[Aula 4](https://github.com/marcelobarbieri/fiap_frontendspecialist/tree/main/logica-de-programacao/aula04)
 
 > Objetos nativos JavaScript - Date, String, Math
 
