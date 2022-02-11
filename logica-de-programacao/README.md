@@ -20,7 +20,7 @@ Aula 5
 
 > Arrays, Filter, Map, Reduce, Splite, forEach, for in, for of
 
-Aula 6
+[Aula 6](https://github.com/marcelobarbieri/fiap_frontendspecialist/tree/main/logica-de-programacao/aula06)
 
 > Funções: tipos, declarações, escopo, retorno, clousers, call-back, IIFE, factory
 
