@@ -50,3 +50,37 @@ frutas("Laranja","Maçã","Kiwi","Mamão","Pera");
 // Mamão
 // Pera
 ```
+
+- Operador Rest
+
+A partir do ES6, surgiu o operador **rest**.
+Ele é representado por **reticências...**
+Esse operador, quando colocado antes do último parâmetro nomeado de uma função, **coleta todos os argumentos passados para esse parâmetro e coloca-os em um array**
+
+No exemplo abaixo, o rest coletará, do **segundo argumento** em diante. Pois o primeiro, foi mapeado para o parâmetro a
+
+```js
+function frutas(a, ...b) {
+    alert(a); // Laranja
+    alert(b); // Maçã,Kiwi,Mamão,Pera
+}
+
+frutas("Laranja","Maçã","Kiwi","Mamão","Pera");
+```
+
+- Parâmetro Padrão
+
+Outra novidade, surgida no mesmo pacote de especificações ES6, foi a dos parâmetros padrão.
+Vamos entender a utilidade deles.
+
+Se for declarado um parâmetro em uma função e não atribuir valor a ele, seu valor padrão será **undefined**.
+
+Usando parâmetro padrão, ao não passar um argumento, **o padrão será aplicado**.
+
+E passando um argumento, ele será atribuído **normalmente** ao parâmetro.
+
+- Outros Parâmetros
+
+- Escopo de Funções
+
+Escopos são **limitadores** de acesso em programação, e podem ser utilizados para estabelecer, por exemplo, que determinados dados **não devem estar visíveis
