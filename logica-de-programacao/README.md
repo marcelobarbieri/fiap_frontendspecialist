@@ -16,7 +16,7 @@
 
 > Objetos nativos JavaScript - Date, String, Math
 
-Aula 5
+[Aula 5](https://github.com/marcelobarbieri/fiap_frontendspecialist/tree/main/logica-de-programacao/aula05)
 
 > Arrays, Filter, Map, Reduce, Splite, forEach, for in, for of
 
