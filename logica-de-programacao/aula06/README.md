@@ -172,6 +172,6 @@ alert(minhaVariavel); // Uncaught ReferenceError: minhaVariavel is not defined
 // alert(minhaVariavel); // Variável no escopo de função
 ```
 
-# Bibliografia
+# Referências
 
 ![Bibliografia](https://github.com/marcelobarbieri/fiap_frontendspecialist/blob/main/assets/logica-bbl-aula06.png)
