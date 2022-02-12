@@ -174,4 +174,13 @@ alert(minhaVariavel); // Uncaught ReferenceError: minhaVariavel is not defined
 
 # Referências
 
-![Bibliografia](https://github.com/marcelobarbieri/fiap_frontendspecialist/blob/main/assets/logica-bbl-aula06.png)
+- https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array
+- https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model
+- https://www.w3schools.com/
+- http://docplayer.com.br/17393758-Javascript-eventos-e-objetos-nativos.html
+- http://adalgisa-souza.appspot.com/javaScript
+
+<!--[Bibliografia](https://github.com/marcelobarbieri/fiap_frontendspecialist/blob/main/assets/logica-bbl-aula06.png)-->
