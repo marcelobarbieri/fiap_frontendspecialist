@@ -58,3 +58,11 @@ Estrutura de seleção.
 Indicado para situações em que todos os casos possíveis de valor para uma variável são conhecidos, sem considerar intervalos.
 
 
+# Referências
+
+- https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String 
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math 
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array 
+- https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM
+- https://www.w3schools.com/
