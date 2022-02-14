@@ -68,11 +68,11 @@ Exemplos:
     
     ### Encontrando Elementos HTML
     
-    Método|Descrição
-    :------|:---------
-    document.getElementById(id)|Encontra um elemento pelo ID
-    document.getElementsByTagName(name)|Encontra um elemento por sua tag
-    document.getElementsByClassName(name)|Encontra um elemento pelo nome da classe
+    |Método                               |Descrição                               |
+    |:------------------------------------|:---------------------------------------|
+    |document.getElementById(id)          |Encontra um elemento pelo ID            |
+    |document.getElementsByTagName(name)  |Encontra um elemento por sua tag        |
+    |document.getElementsByClassName(name)|Encontra um elemento pelo nome da classe|
     
 </details>
 
