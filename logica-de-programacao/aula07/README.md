@@ -64,7 +64,7 @@ Caso você queira acessar qualquer elemento em uma página HTML, sempre comece a
     
 Exemplos:
     
-> Encontrando Elementos HTML
+## Encontrando Elementos HTML
     
 |Método                               |Descrição                               |
 |:---                                 |:---                                    |
@@ -72,7 +72,7 @@ Exemplos:
 |document.getElementsByTagName(name)  |Encontra um elemento por sua tag        |
 |document.getElementsByClassName(name)|Encontra um elemento pelo nome da classe|
     
-> Alterando Elementos HTML
+## Alterando Elementos HTML
 
 |Propriedade                          |Descrição                                        |
 |:---                                 |:---                                             |
@@ -84,7 +84,7 @@ Exemplos:
 |:---                                 |:---                                             |
 |element.setAttribute(attribute,value)|Altera o valor de um atributo de um elemento HTML|    
     
-> Adicionando e excluindo elementos HTML
+## Adicionando e excluindo elementos HTML
     
 |Método                         |Descrição                |
 |:---                           |:---                     |
@@ -94,13 +94,13 @@ Exemplos:
 |document.replaceChild(new,old) |Altera um elemento HTML  |
 |document.write(text)           |Escreve no documento     |
     
-> Manipuladores de eventos
+## Manipuladores de eventos
     
 |Método                                                |Descrição                                 |
 |:---                                                  |:---                                      |
 |document.getElementById(id).onclick = function(){code}|Adiciona um evento de clique a um elemento|    
 
-> Encontrando elemento pelo ID
+## Encontrando elemento pelo ID
     
 A maneira mais fácil de encontrar um elemento HTML no DOM é utilizando o id do elemento.
     
@@ -137,7 +137,7 @@ document.getElementById("paragrafo2").innerHTML =
     "O texto do primeiro parágrafo é: " + element.innerHTML;
 ```    
     
-> Encontrando elemento pelo nome de tag
+## Encontrando elemento pelo nome de tag
 
 Este exemplo encontra todos os elementos <p>
     
@@ -169,7 +169,7 @@ document.getElementById("demo").innerHTML =
     "O texto do primeiro parágrafo é (index 0) é: " + element[0].innerHTML;
 ```    
 
-> Alterando o conteúdo HTML
+## Alterando o conteúdo HTML
     
 A maneira mais fácil de modificar o conteúdo de um elemento HTML é utilizando a **propriedade innerHTML**    
     
@@ -198,7 +198,7 @@ document.getElementById("p1").innerHTML =
     "Novo conteúdo";
 ```      
     
-> Alterando o atributo HTML
+## Alterando o atributo HTML
 
 ```html
 <!DOCTYPE html>
@@ -226,7 +226,7 @@ document.getElementById("image").src =
 ```  
   
 
-> Conteúdo HTML Dinâmico
+## Conteúdo HTML Dinâmico
 
 ```html
 <!DOCTYPE html>
