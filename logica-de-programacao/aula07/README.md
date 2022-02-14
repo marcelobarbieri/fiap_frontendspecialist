@@ -66,13 +66,24 @@ Caso você queira acessar qualquer elemento em uma página HTML, sempre comece a
     
 Exemplos:
     
-    ### Encontrando Elementos HTML
+### Encontrando Elementos HTML
     
-    |Método                               |Descrição                               |
-    |:------------------------------------|:---------------------------------------|
-    |document.getElementById(id)          |Encontra um elemento pelo ID            |
-    |document.getElementsByTagName(name)  |Encontra um elemento por sua tag        |
-    |document.getElementsByClassName(name)|Encontra um elemento pelo nome da classe|
+|Método                               |Descrição                               |
+|:---                                 |:---                                    |
+|document.getElementById(id)          |Encontra um elemento pelo ID            |
+|document.getElementsByTagName(name)  |Encontra um elemento por sua tag        |
+|document.getElementsByClassName(name)|Encontra um elemento pelo nome da classe|
+    
+### Alterando Elementos HTML
+
+|Propriedade                          |Descrição                                        |
+|:---                                 |:---                                             |
+|element.innerHTML = new html content |Altera o inner HTML de um elemento               |
+|element.attribute = new value        |Altera o atributo value de um elemento           |
+|element.style.property = new style   |Altera o style de um elemento HTML               |
+|Método                               |Descrição                                        |    
+|:---                                 |:---                                             |
+|element.setAttribute(attribute,value)|Altera o valor de um atributo de um elemento HTML|    
     
 </details>
 
