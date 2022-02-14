@@ -14,4 +14,51 @@ Os nós também podem contar com manipuladores de eventos que lhe são inerentes
 
 ## Árvore DOM
 
-![Árvore DOM]()
+![Árvore DOM](https://github.com/marcelobarbieri/fiap_frontendspecialist/blob/main/logica-de-programacao/aula07/assets/arvore-dom.png)
+
+Com o DOM, o JavaScript possui todo o poder que necessita para criar um HTML dinâmico:
+
+- Alterar todos os elementos HTML na página;
+- Alterar todos os atributos HTML na página;
+- Alterar todos os estilos CSS na página;
+- Remove elementos e atributos HTML existentes;
+- Adicionar novos elementos e atributos HTML;
+- Reagir a todos os eventos HTML existentes na página;
+- Criar novos eventos HTML na página.
+
+<detail><summary>JavaScript - Métodos DOM HTML</summary>
+
+Os métodos HTML DOM são **ações** qie você pode executar em elementos HTML.
+
+As propriedades DOM HTML são **valores** de elementos HTML que você pode definir ou alterar.
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            
+        </title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <p id="exemplo"></p>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
+```
+
+```js
+document.getElementById("exemplo").innerHTML = "Hello World!";
+```
+
+O método getElementById acessa um elemento pelo seu id.
+
+A propriedade innerHTML acessa o conteúdo de um elemento podendo alterá-lo.
+
+</detail>
+
+<detail><summary>JavaScript - Métodos DOM HTML - Document Object</summary>
+  
+</detail>
+
