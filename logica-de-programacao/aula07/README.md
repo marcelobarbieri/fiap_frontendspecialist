@@ -26,7 +26,7 @@ Com o DOM, o JavaScript possui todo o poder que necessita para criar um HTML din
 - Reagir a todos os eventos HTML existentes na página;
 - Criar novos eventos HTML na página.
 
-<details><summary>JavaScript - Métodos DOM HTML</summary>
+## JavaScript - Métodos DOM HTML
 
 Os métodos HTML DOM são **ações** qie você pode executar em elementos HTML.
 
@@ -56,9 +56,7 @@ O método getElementById acessa um elemento pelo seu id.
 
 A propriedade innerHTML acessa o conteúdo de um elemento podendo alterá-lo.
 
-</details>
-
-<details><summary>JavaScript - Métodos DOM HTML - Document Object</summary>
+## JavaScript - Métodos DOM HTML - Document Object
 
 O **DOCUMENT OBJECT** representa sua página da web.
     
@@ -226,8 +224,7 @@ document.getElementById("p1").innerHTML =
 document.getElementById("image").src = 
     "https://t2.tudocdn.net/492362?w=5";
 ```  
-    
-</details>
+  
 
 ### Conteúdo HTML Dinâmico
 
@@ -255,8 +252,3 @@ let data = new Date();
 document.getElementById("demo").innerHTML = "Data: " + data.toLocaleString();
 ```
 
-<!--
-<details><summary></summary>
-  
-</details>
--->
