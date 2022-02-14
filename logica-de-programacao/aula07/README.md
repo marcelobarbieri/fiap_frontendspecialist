@@ -26,7 +26,7 @@ Com o DOM, o JavaScript possui todo o poder que necessita para criar um HTML din
 - Reagir a todos os eventos HTML existentes na página;
 - Criar novos eventos HTML na página.
 
-<detail><summary>JavaScript - Métodos DOM HTML</summary>
+<details><summary>JavaScript - Métodos DOM HTML</summary>
 
 Os métodos HTML DOM são **ações** qie você pode executar em elementos HTML.
 
@@ -56,9 +56,28 @@ O método getElementById acessa um elemento pelo seu id.
 
 A propriedade innerHTML acessa o conteúdo de um elemento podendo alterá-lo.
 
-</detail>
+</details>
 
-<detail><summary>JavaScript - Métodos DOM HTML - Document Object</summary>
+<details><summary>JavaScript - Métodos DOM HTML - Document Object</summary>
+
+O **DOCUMENT OBJECT** representa sua página da web.
+    
+Caso você queira acessar qualquer elemento em uma página HTML, sempre comece acessando o DOCUENT OBJECT.
+    
+Exemplos:
+    
+    ### Encontrando Elementos HTML
+    
+    Método|Descrição
+    :------|:---------
+    document.getElementById(id)|Encontra um elemento pelo ID
+    document.getElementsByTagName(name)|Encontra um elemento por sua tag
+    document.getElementsByClassName(name)|Encontra um elemento pelo nome da classe
+    
+</details>
+
+<!--
+<details><summary></summary>
   
-</detail>
-
+</details>
+-->
