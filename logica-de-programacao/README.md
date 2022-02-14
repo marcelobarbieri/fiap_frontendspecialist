@@ -24,7 +24,7 @@
 
 > Funções: tipos, declarações, escopo, retorno, clousers, call-back, IIFE, factory
 
-Aula 7
+[Aula 7](https://github.com/marcelobarbieri/fiap_frontendspecialist/tree/main/logica-de-programacao/aula07)
 
 > DOM - Documento Object Model
 
