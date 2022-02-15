@@ -12,21 +12,15 @@ function login() {
     let senha = document.getElementById("senha").value;
 
     if ( (usuario === "adm") && (senha === "123") ) {
-
         // mostrar mensagem com o texto "Seja bem-vindo" na cor verde
-
         element = document.getElementById("saida");
         element.innerHTML = "Seja bem-vindo!";
         element.style.color = "#00FF00"
-
-    } else {
         
+    } else {
         // mostrar mensagem "Login incorreto" na cor vermelha
-
         element = document.getElementById("saida");
         element.innerHTML = "Login incorreto!";
         element.style.color = "#FF0000"
-
-
     }
 }
