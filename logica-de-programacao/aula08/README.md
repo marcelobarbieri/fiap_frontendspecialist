@@ -199,6 +199,30 @@ function verificar() {
 
 <details>
     <summary>Click</summary>
+    
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JavaScript DOM     
+        </title>
+        <meta charset="utf-8">        
+    </head>
+    <body>
+        <h2 id="teste" onclick="alterarTexto()">Clique neste texto</h2>
+        
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
+```     
+    
+```js
+function alterarTexto() {
+    document.getElementById("teste").innerHTML = "Ooops! Texto alterado";
+}    
+```    
+    
 </details>    
 
 <details>
