@@ -107,6 +107,42 @@ function validaNumero() {
 
 <details>
     <summary>Elemento Radio</summary>
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JavaScript DOM     
+        </title>
+        <meta charset="utf-8">        
+    </head>
+    <body>
+        <form action="form-action.php" method="post">
+            <p>
+                <input type="radio" name="herois" value="Homem Aranha"/>Homem Aranha
+                <input type="radio" name="herois" value="Homem de Ferro"/>Homem de Ferro
+                <input type="radio" name="herois" value="Pantera Negra"/>Pantera Negra
+            </p>
+            <p>
+                <input type="button" id="btnSubmit" value="Verificar" onclick="verificar()">
+            </p>
+            <p id="escolha"></p>
+        </form>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
+```    
+    
+```js
+function verificar() {
+    let radios = document.getElementById("herois");
+    for (var i=0; i<radions.length; i++) {
+        if (radios[i].checked) {
+            document.getElementById("escolha").innerHTML=`Sua escolha ${radios[i].value}`;
+        }
+    }
+}
+```
 </details>    
 
 <details>
