@@ -38,34 +38,60 @@ function validarForm() {
 ```
 
 > Validando Números
+<details><summary></summary>
+</details>    
 
 > Validação Automática
+<details><summary></summary>
+</details>    
 
 > Elemento Radio
+<details><summary></summary>
+</details>    
 
 > Elemento Select
+<details><summary></summary>
+</details>    
 
 ## Eventos
 
 > Click
+<details><summary></summary>
+</details>    
 
 > OnLoad
+<details><summary></summary>
+</details>    
 
 > OnChange
+<details><summary></summary>
+</details>    
 
 > OnMouseOver e OnMouseOut
+<details><summary></summary>
+</details>    
 
 > OnMouseDown e OnMouseUp
+<details><summary></summary>
+</details>    
 
 ## Event Listener
 
 > AddEventListener()
+<details><summary></summary>
+</details>    
 
 > Adicionando um manipulador de eventos
+<details><summary></summary>
+</details>    
 
 > Vários métodos em um mesmo elemento
+<details><summary></summary>
+</details>    
 
 > Passagem de Parâmetro
+<details><summary></summary>
+</details>    
 
 ## Bibliografia
     
