@@ -78,7 +78,31 @@ function validaNumero() {
     
 </details>    
 
-<details><summary>Validação Automática</summary>
+<details>
+    <summary>Validação Automática</summary>
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JavaScript DOM     
+        </title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body>
+        <form method="post">
+            <input type="text" name="fNome" required>
+            <input type="submit" value="Submit">
+        </form>
+        
+        <p>Se clicar no botão submit com a input em branco, 
+            seu navegador irá exibir uma mensagem
+        </p>
+    </body>
+</html>
+```    
 </details>    
 
 <details><summary>Elemento Radio</summary>
