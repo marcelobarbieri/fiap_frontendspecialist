@@ -37,60 +37,47 @@ function validarForm() {
 }
 ```
 
-> Validando Números
-<details><summary></summary>
+<details><summary>Validando Números</summary>
 </details>    
 
-> Validação Automática
-<details><summary></summary>
+<details><summary>Validação Automática</summary>
 </details>    
 
-> Elemento Radio
-<details><summary></summary>
+<details><summary>Elemento Radio</summary>
 </details>    
 
-> Elemento Select
-<details><summary></summary>
+<details><summary>Elemento Select</summary>
 </details>    
 
 ## Eventos
 
-> Click
-<details><summary></summary>
+<details><summary>Click</summary>
 </details>    
 
-> OnLoad
-<details><summary></summary>
+<details><summary>OnLoad</summary>
 </details>    
 
-> OnChange
-<details><summary></summary>
+<details><summary>OnChange</summary>
 </details>    
 
-> OnMouseOver e OnMouseOut
-<details><summary></summary>
+<details><summary>OnMouseOver e OnMouseOut</summary>
 </details>    
 
-> OnMouseDown e OnMouseUp
-<details><summary></summary>
+<details><summary>OnMouseDown e OnMouseUp</summary>
 </details>    
 
 ## Event Listener
 
-> AddEventListener()
-<details><summary></summary>
+<details><summary>AddEventListener()</summary>
 </details>    
 
-> Adicionando um manipulador de eventos
-<details><summary></summary>
+<details><summary>Adicionando um manipulador de eventos</summary>
 </details>    
 
-> Vários métodos em um mesmo elemento
-<details><summary></summary>
+<details><summary>Vários métodos em um mesmo elemento</summary>
 </details>    
 
-> Passagem de Parâmetro
-<details><summary></summary>
+<details><summary>Passagem de Parâmetro</summary>
 </details>    
 
 ## Bibliografia
