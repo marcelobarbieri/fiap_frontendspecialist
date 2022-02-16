@@ -254,6 +254,25 @@ function exibeMensagem() {
 
 <details>
     <summary>OnChange</summary>
+    
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JavaScript DOM     
+        </title>
+        <meta charset="utf-8">        
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body onload="exibeMensagem()">
+        <h2>Evento onChange</h2>
+        Digite seu nome: <input type="text" id="fnome" onchange="maiusculo">
+        <p>Quando o componente perder o foco, os caracteres serão convertidos em maiúscula</p>
+    </body>
+</html>
+```  
+    
 </details>    
 
 <details>
