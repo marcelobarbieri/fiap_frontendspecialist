@@ -105,41 +105,52 @@ function validaNumero() {
 ```    
 </details>    
 
-<details><summary>Elemento Radio</summary>
+<details>
+    <summary>Elemento Radio</summary>
 </details>    
 
-<details><summary>Elemento Select</summary>
+<details>
+    <summary>Elemento Select</summary>
 </details>    
 
 ## Eventos
 
-<details><summary>Click</summary>
+<details>
+    <summary>Click</summary>
 </details>    
 
-<details><summary>OnLoad</summary>
+<details>
+    <summary>OnLoad</summary>
 </details>    
 
-<details><summary>OnChange</summary>
+<details>
+    <summary>OnChange</summary>
 </details>    
 
-<details><summary>OnMouseOver e OnMouseOut</summary>
+<details>
+    <summary>OnMouseOver e OnMouseOut</summary>
 </details>    
 
-<details><summary>OnMouseDown e OnMouseUp</summary>
+<details>
+    <summary>OnMouseDown e OnMouseUp</summary>
 </details>    
 
 ## Event Listener
 
-<details><summary>AddEventListener()</summary>
+<details>
+    <summary>AddEventListener()</summary>
 </details>    
 
-<details><summary>Adicionando um manipulador de eventos</summary>
+<details>
+    <summary>Adicionando um manipulador de eventos</summary>
 </details>    
 
-<details><summary>Vários métodos em um mesmo elemento</summary>
+<details>
+    <summary>Vários métodos em um mesmo elemento</summary>
 </details>    
 
-<details><summary>Passagem de Parâmetro</summary>
+<details>
+    <summary>Passagem de Parâmetro</summary>
 </details>    
 
 ## Bibliografia
