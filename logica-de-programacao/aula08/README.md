@@ -2,6 +2,41 @@
 
 ## Formulários
 
+A validação do formulário HTML pode ser realizada por **JavaScript**.
+
+Se um campo de formulário (fname) estiver vazio, esta função exibe uma mensagem e retorna falso, a fim de evitar que o formulário seja enviado.
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JavaScript DOM     
+        </title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body>
+        <h2>JavaScript Validação</h2>
+        
+        <form name="meuForm" onsubmit="return validarForm()" method="post">
+            Nome: <input type="text" name="fNome">
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
+```
+
+```js
+function validarForm() {
+    let x = document.forms["meuForm"]["fNome"].value;
+    if (x == "") {
+        alert("Preencha o campo nome");
+        return false;
+    }
+}
+```
+
 > Validando Números
 
 > Validação Automática
