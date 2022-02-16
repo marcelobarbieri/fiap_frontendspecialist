@@ -68,7 +68,7 @@ function validaNumero() {
     // se não for um número ou estiver vazio
     let texto;
     
-    if (isNan(x) || x=="") {
+    if (isNan(x) || x=="") { // NaN - not a number
         texto = "Entrada inválida";
     } else {
         texto = "OK";
@@ -107,6 +107,7 @@ function validaNumero() {
 
 <details>
     <summary>Elemento Radio</summary>
+    
 ```html
 <!DOCTYPE html>
 <html>
@@ -147,6 +148,51 @@ function verificar() {
 
 <details>
     <summary>Elemento Select</summary>
+    
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JavaScript DOM     
+        </title>
+        <meta charset="utf-8">        
+    </head>
+    <body>
+        <h2>JavaScript HTML DOM - Select</h2>
+        <select id="cboCidades">
+            <option value=""></option>
+            <option value="sp">São Paulo</option>
+            <option value="sa">Santo André</option>
+            <option value="sbc">São Bernardo do Campo</option>
+        </select>
+        <input type="button" id="bthVerificar" value="Verificar" onclick="verificar()"/>
+        <p id="resposta"></p>
+        
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
+```   
+    
+```js
+function verificar() {
+    let comboCidades = document.getElementById("cboCidades");
+    let selecionado = comboCidades.options[comboCidades.selectedIndex].value;
+    if (selecionado=="sp") {
+        document.getElementById("resposta").innerHTML=
+            comboCidades.options[comboCidades.selectedIndex].text;
+    } else if (selecionado=="sa") {
+        document.getElementById("resposta").innerHTML=
+            comboCidades.options[comboCidades.selectedIndex].text;
+    } else if (selecionado=="sbc") {
+        document.getElementById("resposta").innerHTML=
+            comboCidades.options[comboCidades.selectedIndex].text;
+    } else {
+        document.getElementById("resposta").innerHTML= "Selecione uma opção";
+    }
+}
+```    
+    
 </details>    
 
 ## Eventos
