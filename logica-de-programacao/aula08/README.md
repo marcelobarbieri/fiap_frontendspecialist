@@ -37,7 +37,45 @@ function validarForm() {
 }
 ```
 
-<details><summary>Validando Números</summary>
+<details>
+    <summary>Validando Números</summary>
+    
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JavaScript DOM     
+        </title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body>
+        <h2>JavaScript Validação</h2>
+        
+        <p>Insira um número</p>
+        <input id="numero">
+        <button type="button" onclick="validarNumero()">Submit</button>
+        <p id="demo"></p>
+    </body>
+</html>
+```
+    
+```js
+function validaNumero() {
+    // lendo o valor inserido na input
+    let x = document.getElementById("numero").value;
+    // se não for um número ou estiver vazio
+    let texto;
+    
+    if (isNan(x) || x=="") {
+        texto = "Entrada inválida";
+    } else {
+        texto = "OK";
+    }
+}
+```    
+    
 </details>    
 
 <details><summary>Validação Automática</summary>
