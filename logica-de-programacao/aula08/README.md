@@ -227,6 +227,29 @@ function alterarTexto() {
 
 <details>
     <summary>OnLoad</summary>
+    
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JavaScript DOM     
+        </title>
+        <meta charset="utf-8">        
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body onload="exibeMensagem()">
+        <h2 id="teste"></h2>
+    </body>
+</html>
+```    
+    
+```js
+function exibeMensagem() {
+    document.getElementById("teste").innerHTML = "Fui carregado no load da página";
+}    
+```    
+    
 </details>    
 
 <details>
