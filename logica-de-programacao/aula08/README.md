@@ -267,7 +267,7 @@ function exibeMensagem() {
     </head>
     <body onload="exibeMensagem()">
         <h2>Evento onChange</h2>
-        Digite seu nome: <input type="text" id="fnome" onchange="maiusculo">
+        Digite seu nome: <input type="text" id="fnome" onchange="maiusculo()">
         <p>Quando o componente perder o foco, os caracteres serão convertidos em maiúscula</p>
     </body>
 </html>
@@ -284,28 +284,224 @@ function maiusculo() {
 
 <details>
     <summary>OnMouseOver e OnMouseOut</summary>
+    
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JavaScript DOM     
+        </title>
+        <meta charset="utf-8">        
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body onload="exibeMensagem()">
+        <div id="teste" onmouseover="mOver()" onmouseout="mOut()"
+             style="background-color:#D94A38">
+            Pause o mouse aqui!
+        </div>
+    </body>
+</html>
+```    
+
+```js
+function mOver() {
+    document.getElementById("teste").innerHTML = "Mouse sobre mim!";
+}
+    
+function mOut() {
+    document.getElementById("teste").innerHTML = "Passe o mouse aqui!";
+}    
+```    
+    
 </details>    
 
 <details>
     <summary>OnMouseDown e OnMouseUp</summary>
+    
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JavaScript DOM     
+        </title>
+        <meta charset="utf-8">        
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body onload="exibeMensagem()">
+        <div id="teste" onmousedown="mDown()" onmouseup="mUp()"
+             style="background-color:#D94A38">
+            Clique aqui!
+        </div>
+    </body>
+</html>
+```    
+    
+```js
+function mDown() {
+    document.getElementById("teste").style.backgroundColor = "#1ec5e5";
+    document.getElementById("teste").innerHTML = "Clicado";
+}
+    
+function mUp() {
+    document.getElementById("teste").style.backgroundColor = "#d94a38";
+    document.getElementById("teste").innerHTML = "Obrigado";
+}    
+```     
+    
 </details>    
 
 ## Event Listener
 
 <details>
     <summary>AddEventListener()</summary>
+    
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JavaScript DOM     
+        </title>
+        <meta charset="utf-8">                
+    </head>
+    <body>
+        <h2>JavaScript addEventListener</h2>
+
+        <button id="meuBtn">Try it</button>
+        <p id="demo"></p>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>    
+```
+    
+```js
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JavaScript DOM     
+        </title>
+        <meta charset="utf-8">                
+    </head>
+    <body>
+        <h2>JavaScript addEventListener</h2>
+
+        <button id="meuBtn">Try it</button>
+        <p id="demo"></p>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>    
+```    
+    
 </details>    
 
 <details>
     <summary>Adicionando um manipulador de eventos</summary>
+    
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JavaScript DOM     
+        </title>
+        <meta charset="utf-8">                
+    </head>
+    <body>
+        <h2>JavaScript addEventListener</h2>
+
+        <button id="meuBtn">Try it</button>
+        <p id="demo"></p>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>  
+```
+    
+```js
+document.getElementById("meuBtn").addEventListener("click",function() {
+    alert("HelloWorld!");
+});
+```
+    
 </details>    
 
 <details>
     <summary>Vários métodos em um mesmo elemento</summary>
+    
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JavaScript DOM     
+        </title>
+        <meta charset="utf-8">                
+    </head>
+    <body>
+        <h2>JavaScript addEventListener</h2>
+
+        <button id="meuBtn">Try it</button>        
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>     
+```
+    
+```js
+var x = document.getElementById("meuBtn");
+x.addEventListener("click",minhaFuncao);
+x.addEventListener("click",outraFuncao);
+
+function minhaFuncao() {
+    alert("Hello World!");
+}
+
+function outraFuncao() {
+    alert("Esta também foi executada!");
+}  
+```    
+    
 </details>    
 
 <details>
     <summary>Passagem de Parâmetro</summary>
+    
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JavaScript DOM     
+        </title>
+        <meta charset="utf-8">                
+    </head>
+    <body>
+        <h2>JavaScript addEventListener</h2>
+
+        <button id="meuBtn">Calcular</button>        
+        <p id="teste"></p>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>      
+```
+    
+```js
+let p1 = 5;
+let p2 = 7;
+
+document.getElementById("meuBtn").addEventListener(
+    "click",
+    function () {
+        myFunction(p1,p2);
+    }
+)
+
+function myFunction(a,b) {
+    document.getElementById("teste").innerHTML = a * b;
+}    
+```    
+    
 </details>    
 
 ## Bibliografia
