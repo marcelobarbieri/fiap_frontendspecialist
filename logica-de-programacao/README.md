@@ -28,7 +28,7 @@
 
 > DOM - Documento Object Model
 
-Aula 8
+[Aula 8](https://github.com/marcelobarbieri/fiap_frontendspecialist/tree/main/logica-de-programacao/aula08)
 
 > DOM - Documento Object Model
 
