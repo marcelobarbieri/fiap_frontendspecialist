@@ -396,3 +396,12 @@ https://h.daily-dev-tips.com/10-amazing-games-to-learn-css
 # Hands On
 
 https://bit.ly/3MpaVj8
+
+# Links
+
+- https://www.notion.so/Refer-ncias-Front-end-135d4881b9ab41f2b24fe25aafe2205d
+- https://www.netlify.com/
+- https://www.youtube.com/c/rafaellaballerini/search?query=git
+- Daily Dev
+- https://caniuse.com/?search=img
+- https://fonts.google.com/
