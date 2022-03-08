@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@300&family=Roboto:wght@300;500&display=swap");
+
+/* padrão RGB */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: rgb(20, 76, 139, 0.829);
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h2,
+h3 {
+  color: #ff9912;
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  color: rgba(14, 65, 14);
+  font-size: 14x;
+  /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif; */
+}
