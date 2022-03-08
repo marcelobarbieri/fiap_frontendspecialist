@@ -405,3 +405,4 @@ https://bit.ly/3MpaVj8
 - Daily Dev
 - https://caniuse.com/?search=img
 - https://fonts.google.com/
+- QR Code Generator
