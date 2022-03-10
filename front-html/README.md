@@ -4,7 +4,7 @@
 
 - [Aula 1 - Baixando o editor + Introdução HTML + CSS](./aula-01/README.md)
 
-- Aula 2 - Listas + Links + Imagens + Divs + Posicionamento
+- [Aula 2 - Listas + Links + Imagens + Divs + Posicionamento](./aula-02/README.md)
 
 - Aula 3 - Semântica + Background + Flexbox
 
