@@ -1,0 +1,44 @@
+.box {
+  /* Emmet Abbreviation: w200, h200 */
+  width: 50%;
+  min-height: 150px;
+  margin: 20px; /* espaçamento externo */
+  padding: 20px; /* espaçamento interno */
+  box-sizing: border-box; /* não aplica o padding na largura e altura */
+
+  /* border-width: 10px;
+  border-style: solid;
+  background-color: #900; */
+  border: 10px solid #900;
+}
+
+.bg-red {
+  background-color: #900;
+}
+.bg-blue {
+  background-color: #369;
+}
+.bg-orange {
+  background-color: #f60;
+}
+
+#big {
+  width: 500px;
+  height: 400px;
+  background-color: #290;
+}
+
+.view {
+  width: 100vw;
+  height: 100vh;
+
+  max-width: 100%;
+
+  /*  1vw  1% largura viewport*/
+  /* 10vw 10% largura viewport*/
+  /* 50vw 50% largura viewport*/
+
+  /*  1vh  1% altura viewport*/
+  /* 10vh 10% altura viewport*/
+  /* 50vh 50% altura viewport*/
+}

@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@300&family=Poppins:wght@200&family=Roboto:wght@300;500&display=swap");
+
+/** reset básico 
+ * seletor asteristo(*), aplicados a todos os elementos da página 
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**
+ * 
+ */
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/**
+ * formatações genéricas 
+ */
+
+ul,
+ol {
+  list-style: none; /* retirando os marcadores da lista */
+}
+
+/** 
+ * header
+ */
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #000;
+
+  /* convertendo o container em um flex-container */
+  display: flex; /* posiciona os elementos filhos (diretos) um ao lado do outro */
+  /** padrão do display:flex 
+   *    flex-direction: row 
+   *    align-items: flex-start */
+
+  /* alinhamento vertical */
+  align-items: center;
+  /* justifica conteúdo*/
+  justify-content: space-between;
+  /* space-between distribui os elementos */
+  /* space-evenly distribui os elementos, o espaçamento lateral é igual mas o central é maior */
+  /* space-around distribui os elementos, os espaçamentos são iguais */
+
+  padding: 0 20px;
+}
+
+.header-title {
+  color: #fff;
+  font-size: 40px;
+}
+
+.header-menu ul {
+  display: flex;
+}
+
+.header-menu li {
+  margin: 0 10px;
+}
+
+.header-menu a {
+  text-decoration: none; /* retirando o underline do link */
+  color: #fff;
+
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.header-menu a:hover {
+  color: #dc143c;
+}
