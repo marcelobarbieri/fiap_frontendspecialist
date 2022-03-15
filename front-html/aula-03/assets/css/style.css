@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+/* reset básico - Seletor asterisco (*) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**
+ * :root - pseudo classe CSS, representa  elemento <html>
+ * https://developer.mozilla.org/pt-BR/docs/Web/CSS/:root
+ * https://www.w3schools.com/css/css3_variables.asp 
+ */
+:root {
+  --color-first: #ffffff;
+  --color-second: #000000;
+  --color-third: #db2a4e;
+  --color-fourth: rgb(13, 9, 51);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* formatações genéricas */
+ul,
+ol {
+  /* tirando os marcadores das listas */
+  list-style: none;
+}
+
+a {
+  /* tirando o underline dos textos */
+  text-decoration: none;
+  color: var(--color-first);
+}
+
+.nav-bar {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
+  padding: 20px;
+  /* background-color: #888; */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu li {
+  margin: 0 30px;
+}
+
+.nav-menu a {
+  transition: 0.5s;
+}
+
+.nav-menu a:hover {
+  color: var(--color-third);
+}
+
+/**
+ * botão contato + botão principal
+ */
+.btn {
+  background-color: var(--color-third);
+  color: var(--color-first);
+  padding: 5px 30px;
+  border-radius: 30px;
+  font-weight: 700;
+  border: 1px solid var(--color-third);
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: transparent;
+}
+
+.menu-btn {
+  cursor: pointer;
+  font-size: 30px;
+  /* color: var(--color-second); */
+
+  /**
+   * position: static;
+   * default
+   *
+   * position: absolute;
+   * usa o elemento pai como referência quando o pai possui referência de posição definida, 
+   *    ou o body caso o pai não possua referência de posição definida
+   * no exemplo, ele usa body como referência de posição
+   */
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  display: none !important;
+  color: var(--color-first);
+}
+
+.active-scroll {
+  /**
+ * quando ocorrer scrool de tela o menu mudará sua cor de fundo
+ */
+  background-color: rgba(3, 2, 16, 0.863);
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+    url(../images/pexels-felix-mittermeier-957002.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content {
+  margin: 150px 0;
+  color: var(--color-first);
+  text-align: center;
+}
+
+.header-content h2 {
+  margin: 50px 0px;
+  font-size: 8vmin; /* 8% do viewport (viewport mínimo) */
+}
+
+.header-content h3 {
+  margin: 50px 0px;
+  font-size: 5vmin; /* 5% do viewport (viewport mínimo) */
+}
+
+.logo {
+  color: var(--color-first);
+}
+
+.tour {
+  width: 80%;
+  height: 200vh;
+  margin: 70px auto;
+  background-color: #888;
+}
+
+/**
+ * media query
+ * responsivo
+ * só funcionará para telas de até 650px
+ */
+@media (max-width: 850px) {
+  .menu-btn {
+    display: block !important;
+  }
+
+  .nav-bar {
+    padding: 0;
+  }
+
+  .logo {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background-color: var(--color-fourth);
+    margin-top: -1100px;
+    /* transition: 0.5s; */
+  }
+
+  .mobile-menu {
+    margin-top: 0;
+  }
+
+  .nav-menu li {
+    margin: 30px auto;
+  }
+
+  .nav-menu a {
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 650px) {
+  .header-content h2 {
+    padding: 0 10px;
+  }
+}
