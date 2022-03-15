@@ -20,7 +20,8 @@
 </p>
 </details>
 
-<details><summary>Calendário</summary>
+<!-- <details><summary>Calendário</summary> -->
+
 - [ ] 26/01/2022
 - [ ] 27/01/2022
 - [ ] 31/01/2022
@@ -61,7 +62,7 @@
 - [ ] 05/05/2022
 - [ ] 09/05/2022
 - [ ] 11/05/2022
-</details>
+<!-- </details> -->
 
 <details><summary>Referências</summary>
 <p>
