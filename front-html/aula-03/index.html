@@ -18,12 +18,14 @@
 
         <!-- Menu -->
         <nav class="nav-bar">
-            <h2 class="logo">MyPlace</h2>
+            <h2 class="logo">
+                <a href="">MyPlace</a>                
+            </h2>
             <ul class="nav-menu">
-                <li><a href="" >Tours</a></li>
-                <li><a href="">Explore</a></li>
-                <li><a href="">Eventos</a></li>
-                <li><a href="" class="btn">Contato</a></li>
+                <li><a href="#tours" >Tours</a></li>
+                <li><a href="#explore">Explore</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#contato" class="btn">Contato</a></li>
             </ul>  
             <i class="fa-solid fa-bars menu-btn"></i>
         </nav>   
@@ -37,13 +39,163 @@
             </div>
         </header>
 
-        <!-- Tours -->
-        <section class="tour">
+        <!-- Passeios -->
+        <section class="tour" id="tours">
+
+            <!-- Título -->
             <div class="tour-title">
                 <h2>Faça um tour pelas montanhas</h2>
                 <div class="line"></div> <!-- Emmet abreviation: .line -->
             </div>
+
+            <!-- Lista de passeios -->
+            <div class="tour-list">
+
+                <!-- Passeio 1 -->
+                <div class="tour-list-item">
+                    <img src="./assets/images/pexels-francesco-ungaro-2835436.jpg" alt="Faça um passeio pelas montanhas">
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, rem corporis sed aspernatur inventore laborum!</p>
+                    <a href="" class="btn">Veja mais</a>
+                </div>
+
+                <!-- Passeio 2 -->
+                <div class="tour-list-item">
+                    <img src="./assets/images/pexels-roberto-shumski-5555192.jpg" alt="Faça um passeio pelas montanhas">
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, rem corporis sed aspernatur inventore laborum!</p>
+                    <a href="" class="btn">Veja mais</a>
+                </div>                         
+
+                <!-- Passeio 3 -->
+                <div class="tour-list-item">
+                    <img src="./assets/images/pexels-francesco-ungaro-2835436.jpg" alt="Faça um passeio pelas montanhas">
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, rem corporis sed aspernatur inventore laborum!</p>
+                    <a href="" class="btn">Veja mais</a>
+                </div>
+
+                <!-- Passeio 4 -->
+                <div class="tour-list-item">
+                    <img src="./assets/images/pexels-roberto-shumski-5555192.jpg" alt="Faça um passeio pelas montanhas">
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, rem corporis sed aspernatur inventore laborum!</p>
+                    <a href="" class="btn">Veja mais</a>
+                </div>                  
+
+                <!-- Passeio 5 -->
+                <div class="tour-list-item">
+                    <img src="./assets/images/pexels-francesco-ungaro-2835436.jpg" alt="Faça um passeio pelas montanhas">
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, rem corporis sed aspernatur inventore laborum!</p>
+                    <a href="" class="btn">Veja mais</a>
+                </div>
+
+                <!-- Passeio 6 -->
+                <div class="tour-list-item">
+                    <img src="./assets/images/pexels-roberto-shumski-5555192.jpg" alt="Faça um passeio pelas montanhas">
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, rem corporis sed aspernatur inventore laborum!</p>
+                    <a href="" class="btn">Veja mais</a>
+                </div>                  
+            </div>
         </section>
+
+        <!-- Explore -->
+        <section class="explore" id="explore"> 
+            <div class="explore-content">
+                <h2>Explore nosso mundo</h2>
+                <div class="line"></div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsum, quas quam nam, nobis beatae iusto, architecto ad tempore quis repellendus perspiciatis saepe. Quibusdam excepturi delectus amet dolorum quas harum.
+                </p>
+                <a href="" class="btn">Veja mais</a>
+
+            </div>
+        </section>
+
+        <!-- Eventos -->
+        <section class="eventos" id="eventos">
+            <div class="eventos-content">
+                <h3>Venha se encantar com nossas maravilhas</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et odio illum, repellendus laudantium vel, fugiat officia consectetur eos ad quibusdam eligendi aliquam sed qui asperiores!
+                </p>
+                <a href="" class="btn">Veja mais</a>
+            </div>   
+            <div class="eventos-content">
+                <div class="eventos-content-list">
+                    <div class="eventos-content-item">
+                        <img src="./assets/images/pexels-tobias-bjørkli-1693085 (1).jpg" alt="">
+                    </div>
+                    <div class="eventos-content-item">
+                        <img src="./assets/images/pexels-stein-egil-liland-5704789.jpg" alt="">
+                    </div>
+                    <div class="eventos-content-item">
+                        <img src="./assets/images/pexels-stefan-stefancik-91216.jpg" alt="">
+                    </div>
+                    <div class="eventos-content-item">
+                        <img src="./assets/images/pexels-tuomas-haapala-7223461.jpg" alt="">
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <!-- Rodapé -->
+        <footer class="rodape">
+
+            <!-- Navegação -->
+            <div class="rodape-bloco">
+                <p>Navegação</p>
+                <div class="line"></div>
+                <ul class="rodape-nav">
+                    <li>Home</li>
+                    <li>Tours</li>
+                    <li>Explore</li>
+                    <li>Sobre</li>
+                    <li>Contato</li>
+                </ul>
+            </div>
+
+            <!-- Serviços -->
+            <div class="rodape-bloco">
+                <p>Serviços</p>
+                <div class="line"></div>
+                <ul class="rodape-nav">
+                    <li>Passeios</li>
+                    <li>Acampamento</li>
+                    <li>Escakada</li>
+                    <li>Gastronomia</li>
+                </ul>
+            </div>
+
+            <!-- Contatos -->
+            <div class="rodape-bloco">
+                <p>Contatos</p>
+                <div class="line"></div>
+                <p>Telefones</p>
+                <ul class="rodape-nav">
+                    <li>(11) 3385-8010)</li>
+                    <li>(11) 3385-8010)</li>
+                </ul>                
+                <p>E-mail</p>
+                <ul class="rodape-nav">
+                    <li>MyPlace@MyPlace.com</li>                    
+                </ul>                
+                <p>Endereço</p>
+                <ul class="rodape-nav">
+                    <li>Av. Paulista, 1200 - SP</li>
+                </ul>                                                
+            </div>
+
+            <!-- Redes Sociais -->
+            <div class="rodape-bloco">
+                <p>Contatos</p>
+                <div class="line"></div>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>                
+            </div>
+        </footer>
 
         <script src="./assets/js/menu.js"></script>
         <script src="./assets/js/scroll.js"></script>

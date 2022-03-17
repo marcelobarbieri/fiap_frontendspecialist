@@ -10,4 +10,12 @@ https://www.w3schools.com/css/css3_variables.asp
 https://fontawesome.com/
 https://cdnjs.com/libraries/font-awesome
 
+https://bit.ly/3cHM4HZ
+
+storyset.com/illustration/students/bro/animate
+
+fontawesome.com/icons
+
+https://www.netlify.com/
+
 ## Backgrounds

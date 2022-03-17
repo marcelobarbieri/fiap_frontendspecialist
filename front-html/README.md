@@ -2,13 +2,13 @@
 
 > HTML - CSS - SASS - BootStrap
 
-- [Aula 1 - Baixando o editor + Introdução HTML + CSS](./aula-01/README.md)
+- [Aula 1 - Baixando o editor + Introdução HTML + CSS](./aula-01/)
 
-- [Aula 2 - Listas + Links + Imagens + Divs + Posicionamento](./aula-02/README.md)
+- [Aula 2 - Listas + Links + Imagens + Divs + Posicionamento](./aula-02/)
 
-- Aula 3 - Semântica + Background + Flexbox
+- [Aula 3 - Semântica + Background + Flexbox](./aula-03/)
 
-- Aula 4 - Tabelas - Formulários
+- [Aula 4 - Tabelas - Formulários](./aula-04/)
 
 - Aula 5 - Design Responsivo + Media Queries + Mobile First
 

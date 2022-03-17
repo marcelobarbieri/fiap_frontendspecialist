@@ -19,6 +19,11 @@
   --color-fourth: rgb(13, 9, 51);
 }
 
+html {
+  /* caniuse.com */
+  scroll-behavior: smooth; /* rolagem da página ao clicar no link */
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -46,6 +51,13 @@ a {
   position: fixed;
   top: 0;
   left: 0;
+
+  /** todo elemento possui z-index: 0
+   *  colocando z-index: 1 ninguém ficará na frente 
+   *  ou seja, z-index maior fica na frente 
+   *  z-index trata a profundidade */
+  z-index: 1;
+  transition: 0.5s; /* transição para exibir o menu fixado ao rolar a página */
 }
 
 .nav-menu {
@@ -80,6 +92,7 @@ a {
 
 .btn:hover {
   background-color: transparent;
+  color: var(--color-third);
 }
 
 .menu-btn {
@@ -118,6 +131,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
+  background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -143,11 +157,214 @@ a {
   color: var(--color-first);
 }
 
+/**
+ * para container geralmente são definidas as seguintes propriedades:
+ * margin
+ * padding
+ * alinhamento de texto
+ * flex
+ * width
+ * height
+ */
+
 .tour {
   width: 80%;
-  height: 200vh;
   margin: 70px auto;
-  background-color: #888;
+  /* background-color: #888; */
+}
+
+.tour-title {
+  text-align: center;
+  font-size: 4vmin;
+  margin-bottom: 40px;
+}
+
+.line {
+  width: 150px;
+  background-color: var(--color-third);
+  height: 4px;
+  border-radius: 7px;
+  margin: 40px;
+}
+
+.tour-list {
+  width: 100%;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center; /* alinhamento vertical */
+  justify-content: space-evenly; /* distribuição horizontal */
+  /* flex-direction: row;  */
+  flex-wrap: wrap; /* respeita o tamanho do container e quebra */
+}
+
+.tour-list-item {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px 0;
+  box-shadow: 0 3px 16px rgba(0, 0, 0, 0.3);
+  padding: 40px 10px;
+  border-radius: 7px;
+}
+
+.tour-list-item img {
+  width: 90%;
+  border-radius: 7px;
+  transition: 0.5s;
+}
+
+.tour-list-item img:hover {
+  transform: scale(1.03); /* aumento de 20% */
+  cursor: pointer;
+}
+
+.tour-list-item h3 {
+  font-size: 3vim;
+  margin: 40px auto 20px;
+}
+
+.tour-list-item p {
+  padding: 0 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.explore {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
+    url(../images/pexels-kleber-m-ortiz-4028995.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50%;
+  display: flex;
+  align-items: center;
+  /* justify-content: center;   */
+}
+
+.explore-content {
+  width: 60%;
+  padding: 50px;
+  color: var(--color-first);
+}
+
+.explore-content h2 {
+  font-size: 7vmin;
+}
+
+.explore-content .line {
+  width: 60%;
+  margin: 40px 0;
+}
+
+.explore-content p {
+  margin-bottom: 40px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+/**
+ * Eventos
+ */
+
+.eventos {
+  width: 90%;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  margin: 50px auto;
+  padding: 40px 50px;
+  border-radius: 7px;
+  /* background-color: #ccc; */
+  justify-content: space-between;
+}
+
+.eventos-content {
+  width: 47%;
+  margin: 10px;
+  font-weight: 500;
+  line-height: 30px;
+  /* background-color: #888; */
+  text-align: center;
+  /* height: 50vh; */
+  vertical-align: center;
+  align-items: center;
+}
+
+.eventos-content h3 {
+  margin: 40px;
+  font-size: 2vim;
+}
+
+.eventos-content p {
+  margin: 40px;
+  text-align: left;
+}
+
+.eventos-content-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.eventos-content-item {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 0;
+  /* box-shadow: 0 3px 16px rgba(0, 0, 0, 0.3); */
+  padding: 10px 0px;
+  border-radius: 7px;
+}
+
+.eventos-content-item img {
+  width: 90%;
+  border-radius: 7px;
+  transition: 0.5s;
+}
+
+.eventos-content-item img:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.rodape {
+  background-color: var(--color-second);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: left;
+  flex-wrap: wrap;
+  color: var(--color-first);
+}
+
+.rodape-bloco {
+  margin: 80px 40px;
+}
+
+.rodape-bloco p {
+  font-weight: 800;
+}
+
+.rodape-bloco .line {
+  height: 2px;
+  width: 20vh;
+  margin: 10px 0px;
+}
+
+.rodape-nav li {
+  margin: 5px 0px;
+}
+
+.rodape-bloco i {
+  cursor: pointer;
+  font-size: 30px;
+  color: var(--color-first);
+  padding: 0 10px;
 }
 
 /**
@@ -191,6 +408,52 @@ a {
   .nav-menu a {
     font-weight: 900;
     text-transform: uppercase;
+  }
+
+  .tour-list {
+    flex-direction: column;
+  }
+
+  .tour-list-item {
+    width: 100%;
+  }
+
+  .explore-content {
+    width: 100%;
+  }
+
+  .eventos {
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .eventos-content {
+    width: 100%;
+    align-items: center;
+  }
+
+  .eventos-content h3 {
+    text-align: center;
+  }
+
+  .eventos-content p {
+    text-align: center;
+  }
+
+  .rodape {
+    flex-direction: column;
+    padding: 80px 0;
+  }
+
+  .rodape-bloco {
+    margin: 40px 100px;
+  }
+
+  .rodape-bloco .line {
+    height: 2px;
+    width: 100%;
+    margin: 10px 0px;
   }
 }
 
