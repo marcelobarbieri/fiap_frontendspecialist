@@ -49,7 +49,7 @@
 - [x] 09 qua
 - [x] 10 qui
 - [x] 14 seg
-- [ ] 16 qua
+- [x] 16 qua
 - [ ] 21 seg
 - [ ] 23 qua
 - [ ] 28 seg
