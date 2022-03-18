@@ -51,8 +51,6 @@ https://code.visualstudio.com/download
 
 HTML - HyperText Markup Language
 
-[Documentação](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-
 <details><summary>Estrutura HTML</summary>
 
 ```html
@@ -131,20 +129,19 @@ Possui fechamento representado por **\</body\>**
 
 > Estrutura de Pastas
 
-[netlify](https://www.netlify.com/)
-
 ```ps
-css/
-images/
-js/
-
-index.html
+FRONT/
+  assets/
+    css/
+    images/
+    js/
+  index.html
 ```
 
 index.html
 
 ```html
-<!-- Recurso **Emmet** permite escrever código de maneira rápida
+<!-- Recurso **Emmet Abreviation** permite escrever código de maneira rápida
      '! + Enter' monta a estrutura HTML -->
 
 <!DOCTYPE html>
@@ -157,14 +154,6 @@ index.html
   </head>
   <body></body>
 </html>
-```
-
-Após os ajustes
-
-index.html
-
-```html
-
 ```
 
 > Títulos e Parágrafos
@@ -474,6 +463,7 @@ https://bit.ly/3MpaVj8
 # Links
 
 [Documentação](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+[netlify](https://www.netlify.com/)
 
 - https://www.notion.so/Refer-ncias-Front-end-135d4881b9ab41f2b24fe25aafe2205d
 - https://www.netlify.com/
@@ -481,4 +471,7 @@ https://bit.ly/3MpaVj8
 - Daily Dev
 - https://caniuse.com/?search=img
 - https://fonts.google.com/
-- QR Code Generator -->
+- QR Code Generator
+
+
+-->
