@@ -127,7 +127,7 @@ Possui fechamento representado por **\</body\>**
 
 <details><summary>Criando o Projeto</summary>
 
-> Estrutura de Pastas
+## Estrutura de Pastas
 
 ```ps
 FRONT/
@@ -138,7 +138,7 @@ FRONT/
   index.html
 ```
 
-index.html
+## index.html
 
 ```html
 <!-- Recurso **Emmet Abreviation** permite escrever código de maneira rápida
@@ -156,14 +156,14 @@ index.html
 </html>
 ```
 
-> Títulos e Parágrafos
+## Títulos e Parágrafos
 
-- Títulos (Cabeçalhos)
+### Títulos (Cabeçalhos)
 
-As tags <h1>, <h2>, <h3>, <h4>, <h5> e <h6> são os cabeçalhos para os documentos HTML.
+As tags **\<h1\>**, **\<h2\>**, **\<h3\>**, **\<h4\>**, **\<h5\>** e **\<h6\>** são os cabeçalhos para os documentos HTML.
 São usados como títulos para os conteúdos da página.
 
-O elemento <h1> é o maior nível de cabeçalho enquanto o elemento <h6> é o menor.
+O elemento **\<h1\>** é o maior nível de cabeçalho enquanto o elemento **\<h6\>** é o menor.
 
 ```html
 <h1>Cabeçalho nível 1</h1>
@@ -174,9 +174,9 @@ O elemento <h1> é o maior nível de cabeçalho enquanto o elemento <h6> é o me
 <h6>Cabeçalho nível 6</h6>
 ```
 
-- Parágrafos
+### Parágrafos
 
-A tag <p> permite a criação de um parágrafo.
+A tag **\<p\>** permite a criação de um parágrafo.
 Podemos usar **CSS** para fazer a estilização desse parágrafo formatando, entre outras coisas, suas margens, fonte, cor, largura etc.
 
 ```html
@@ -184,15 +184,20 @@ Podemos usar **CSS** para fazer a estilização desse parágrafo formatando, ent
 ```
 
 **Lorem Ipsum**
-Pode ser gerada uma simulação de texto com o uso do VS Code.
-Para isso, basta digitar a palavra **LOREM** e pressionar a tecla **ENTER**.
+Pode ser gerada uma simulação de texto com o uso do **Emmet Abreviation** no VSCode.
+Para isso, basta digitar a palavra **lorem** e pressionar a tecla **ENTER**.
 
 ```html
-<p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit culpa cumque temporibus, cum dolores ad, cupiditate, veniam consequatur nisi harum illum iusto! In expedita aspernatur asperiores veniam perspiciatis repellendus dolorum.</p></p>
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit culpa
+  cumque temporibus, cum dolores ad, cupiditate, veniam consequatur nisi harum
+  illum iusto! In expedita aspernatur asperiores veniam perspiciatis repellendus
+  dolorum.
+</p>
 ```
 
 Também é possível definir a quantidade de palavras.
-Digitar a palavra **LOREM50** e pressionar a tecla **ENTER** para escrever 50 palavras.
+Digitar a palavra **lorem50** e pressionar a tecla **ENTER** para escrever 50 palavras.
 
 </details>
 
