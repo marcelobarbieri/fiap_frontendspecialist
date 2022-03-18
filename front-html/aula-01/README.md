@@ -47,7 +47,7 @@ https://code.visualstudio.com/download
 
 </details>
 
-<details><summary>Introdução HTML</summary>
+# Introdução HTML
 
 HTML - HyperText Markup Language
 
@@ -204,8 +204,6 @@ Para isso, basta digitar a palavra **LOREM** e pressionar a tecla **ENTER**.
 
 Também é possível definir a quantidade de palavras.
 Digitar a palavra **LOREM50** e pressionar a tecla **ENTER** para escrever 50 palavras.
-
-</details>
 
 </details>
 
