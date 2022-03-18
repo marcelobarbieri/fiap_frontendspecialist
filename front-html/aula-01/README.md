@@ -63,10 +63,14 @@ HTML - HyperText Markup Language
 
 ### \<!DOCTYPE html\>
 
+#
+
 Será a primeira linha do código.
 Indica ao browser qual especificação do HTML estará na página.
 
 ### \<html lang="pt-br"\>
+
+#
 
 Indica o início do código.
 Todos os elementos existentes na página são alocados abaixo dessa tag.
@@ -78,6 +82,8 @@ No final do documento é possível encontrar o fechamento da tag representado po
 
 ### \<head\>
 
+#
+
 Uma das seções mais importantes do código.
 Seu conteúdo é o primeiro a ser lido no carregamento da página.
 
@@ -86,6 +92,8 @@ Nela pode-se definir estilos, links, títulos do documento e até metadados (dad
 O fechamento dessa tag é representado por **\</head\>**
 
 ### \<meta charset="UTF-8"\>
+
+#
 
 Essa metatag sempre ficará na seção **\<head\>**.
 Metatags não possuem fechamento.
@@ -97,6 +105,8 @@ Desta forma o navegador exibirá as palavras acentuadas de forma correta.
 
 ### \<meta name="viewport" content="width=device-width, initial-scale=1.0"\>
 
+#
+
 Essa metatag sempre ficará na seção **\<head\>**.
 Metatags não possuem fechamento.
 
@@ -106,6 +116,8 @@ O navegador detecta o tamanho exato da área disponível para exibição de cont
 
 ### \<title\>
 
+#
+
 Também presente na seção **\<head\>**, define o título da página.
 
 Importante: não deixar essa tag vazia, pois os robôs de pesquisa do **Google** lêem o seu conteúdo e entendem que ali está uma descrição que pode indicar o assunto principal da página.
@@ -113,6 +125,8 @@ Importante: não deixar essa tag vazia, pois os robôs de pesquisa do **Google**
 Possui fechamento representado por **\</title\>**
 
 ### \<body\>
+
+#
 
 Seção onde o conteúdo da página é inserido.
 O conteúdo pode ser: texto, imagem, vídeo, tabela ou qualquer outro tipo de elemento.
