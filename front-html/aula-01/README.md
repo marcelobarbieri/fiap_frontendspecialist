@@ -47,7 +47,7 @@ HTML - HyperText Markup Language
 
 [Documentação](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 
-## Estrutura HTML
+<details><summary>Estrutura HTML</summary>
 
 ```html
 <!DOCTYPE html>
@@ -61,16 +61,12 @@ HTML - HyperText Markup Language
 </html>
 ```
 
-### \<!DOCTYPE html\>
-
-#
+## \<!DOCTYPE html\>
 
 Será a primeira linha do código.
 Indica ao browser qual especificação do HTML estará na página.
 
-### \<html lang="pt-br"\>
-
-#
+## \<html lang="pt-br"\>
 
 Indica o início do código.
 Todos os elementos existentes na página são alocados abaixo dessa tag.
@@ -80,9 +76,7 @@ Neste caso **pt-br** indica que o conteúdo da página estará em língua portug
 
 No final do documento é possível encontrar o fechamento da tag representado por **\</html\>** indicando a finalização da página.
 
-### \<head\>
-
-#
+## \<head\>
 
 Uma das seções mais importantes do código.
 Seu conteúdo é o primeiro a ser lido no carregamento da página.
@@ -91,9 +85,7 @@ Nela pode-se definir estilos, links, títulos do documento e até metadados (dad
 
 O fechamento dessa tag é representado por **\</head\>**
 
-### \<meta charset="UTF-8"\>
-
-#
+## \<meta charset="UTF-8"\>
 
 Essa metatag sempre ficará na seção **\<head\>**.
 Metatags não possuem fechamento.
@@ -103,9 +95,7 @@ Indica qual a cadeia de caracteres o documento utilizará.
 O idioma pt-br possui letras com acentuação, por isso **utf-8** é a cadeia de caracteres a ser utilizada.
 Desta forma o navegador exibirá as palavras acentuadas de forma correta.
 
-### \<meta name="viewport" content="width=device-width, initial-scale=1.0"\>
-
-#
+## \<meta name="viewport" content="width=device-width, initial-scale=1.0"\>
 
 Essa metatag sempre ficará na seção **\<head\>**.
 Metatags não possuem fechamento.
@@ -114,9 +104,7 @@ Importante para design responsivo.
 
 O navegador detecta o tamanho exato da área disponível para exibição de conteúdo no dispositivo onde o acesso será realizado: notebook, tablet, smartphone etc.
 
-### \<title\>
-
-#
+## \<title\>
 
 Também presente na seção **\<head\>**, define o título da página.
 
@@ -124,14 +112,14 @@ Importante: não deixar essa tag vazia, pois os robôs de pesquisa do **Google**
 
 Possui fechamento representado por **\</title\>**
 
-### \<body\>
-
-#
+## \<body\>
 
 Seção onde o conteúdo da página é inserido.
 O conteúdo pode ser: texto, imagem, vídeo, tabela ou qualquer outro tipo de elemento.
 
 Possui fechamento representado por **\</body\>**
+
+</details>
 
 # Criando o Projeto
 
