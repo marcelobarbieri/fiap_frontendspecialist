@@ -6,6 +6,8 @@
 > Introdução CSS - Tipos de Seletores e Formatações
 > Google Fonts
 
+<details><summary>Editor</summary>
+
 # Baixando o Editor
 
 Instalando e configurando o VSCode
@@ -43,7 +45,9 @@ https://code.visualstudio.com/download
 
 </details>
 
-# Introdução HTML
+</details>
+
+<details><summary>Introdução HTML</summary>
 
 HTML - HyperText Markup Language
 
@@ -200,6 +204,8 @@ Para isso, basta digitar a palavra **LOREM** e pressionar a tecla **ENTER**.
 
 Também é possível definir a quantidade de palavras.
 Digitar a palavra **LOREM50** e pressionar a tecla **ENTER** para escrever 50 palavras.
+
+</details>
 
 </details>
 
