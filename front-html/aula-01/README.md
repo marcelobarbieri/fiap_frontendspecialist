@@ -161,6 +161,7 @@ FRONT/
 ### Títulos (Cabeçalhos)
 
 As tags **\<h1\>**, **\<h2\>**, **\<h3\>**, **\<h4\>**, **\<h5\>** e **\<h6\>** são os cabeçalhos para os documentos HTML.
+
 São usados como títulos para os conteúdos da página.
 
 O elemento **\<h1\>** é o maior nível de cabeçalho enquanto o elemento **\<h6\>** é o menor.
@@ -177,14 +178,16 @@ O elemento **\<h1\>** é o maior nível de cabeçalho enquanto o elemento **\<h6
 ### Parágrafos
 
 A tag **\<p\>** permite a criação de um parágrafo.
-Podemos usar **CSS** para fazer a estilização desse parágrafo formatando, entre outras coisas, suas margens, fonte, cor, largura etc.
+Pode-se usar **CSS** para fazer a estilização desse parágrafo formatando, entre outras coisas, suas margens, fonte, cor, largura etc.
 
 ```html
 <p>Aqui vem o texto...</p>
 ```
 
-**Lorem Ipsum**
+#### Lorem Ipsum
+
 Pode ser gerada uma simulação de texto com o uso do **Emmet Abreviation** no VSCode.
+
 Para isso, basta digitar a palavra **lorem** e pressionar a tecla **ENTER**.
 
 ```html
@@ -197,6 +200,7 @@ Para isso, basta digitar a palavra **lorem** e pressionar a tecla **ENTER**.
 ```
 
 Também é possível definir a quantidade de palavras.
+
 Digitar a palavra **lorem50** e pressionar a tecla **ENTER** para escrever 50 palavras.
 
 </details>
