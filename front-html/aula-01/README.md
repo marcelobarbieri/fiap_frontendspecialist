@@ -123,7 +123,7 @@ Possui fechamento representado por **\</body\>**
 
 </details>
 
-# Criando o Projeto
+<details><summary>Criando o Projeto</summary>
 
 > Estrutura de Pastas
 
@@ -201,7 +201,9 @@ Para isso, basta digitar a palavra **LOREM** e pressionar a tecla **ENTER**.
 Também é possível definir a quantidade de palavras.
 Digitar a palavra **LOREM50** e pressionar a tecla **ENTER** para escrever 50 palavras.
 
-## Introdução CSS
+</details>
+
+<!-- ## Introdução CSS
 
 ### Tipos de Seletores e Formatações
 
@@ -475,4 +477,4 @@ https://bit.ly/3MpaVj8
 - Daily Dev
 - https://caniuse.com/?search=img
 - https://fonts.google.com/
-- QR Code Generator
+- QR Code Generator -->
