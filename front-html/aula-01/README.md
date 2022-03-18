@@ -25,6 +25,22 @@ https://code.visualstudio.com/download
 
 ### Atalhos
 
+| Atalho                             | Funções                                                        |
+| :--------------------------------- | :------------------------------------------------------------- |
+| Ctrl + +                           | Aumentar zoom                                                  |
+| Ctrl + -                           | Diminuir zoom                                                  |
+| Ctrl + ,                           | Abrir painel de configurações                                  |
+| Ctrl + Alt + setas para cima/baixo | Insere múltiplos cursores                                      |
+| Alt + Click                        | Indentação automática                                          |
+| Alt + Shift + F                    | Indentação automática                                          |
+| Alt + setas                        | Move a linha ou bloco de código onde o cursor está posicionado |
+| Ctrl + K + C                       | Comentar a linha                                               |
+| Ctrl + ;                           | Comentar a linha                                               |
+| Alt + Shift + setas                | Duplicar linha                                                 |
+| Ctrl + Barra de espaço             | Abre o intellisense                                            |
+| Ctrl + ]                           | Dividir a tela                                                 |
+| Ctrl + K + S                       | Exibe todos os atalhos                                         |
+
 ## Introdução HTML
 
 HTML - HyperText Markup Language
@@ -45,13 +61,20 @@ HTML - HyperText Markup Language
 </html>
 ```
 
-**<!DOCTYPE html>**
-Será a primeira linha do seu código, ela indica ao browser qual especificação do HTML estará na página.
+**\<!DOCTYPE html\>**
+Será a primeira linha do código.
+Indica ao browser qual especificação do HTML estará na página.
 
-**<html lang="pt-br">**
-Indica o início do código, todos os elementos existentes na página são alocados abaixo dessa tag.
-Devemos também informar o idioma principal do documento por meio do atributo **lang**. No nosso caso **\*pt-br** indica que o conteúdo da página está em língua portuguesa.
-No final do documento encontramos o fechamento da tag representado por **</html>** indicando a finalização da página.
+**\<html lang="pt-br"\>**
+Indica o início do código.
+Todos os elementos existentes na página são alocados abaixo dessa tag.
+
+Deve-se informar o idioma principal do documento por meio do atributo **lang**.
+Neste caso **pt-br** indica que o conteúdo da página estará em língua portuguesa.
+
+No final do documento é possível encontrar o fechamento da tag representado por **</html>** indicando a finalização da página.
+
+**\<head\>**
 
 ...
 
@@ -398,6 +421,8 @@ https://h.daily-dev-tips.com/10-amazing-games-to-learn-css
 https://bit.ly/3MpaVj8
 
 # Links
+
+[Documentação](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 
 - https://www.notion.so/Refer-ncias-Front-end-135d4881b9ab41f2b24fe25aafe2205d
 - https://www.netlify.com/

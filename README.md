@@ -7,11 +7,11 @@
 <details><summary>Módulos</summary>
 <p>
   
-- [JavaScript: Lógica de Programação (Primeiros Passos)](./logica-de-programacao/README.md)
+- [JavaScript: Lógica de Programação (Primeiros Passos)](./logica-de-programacao/)
 
 - Prototipação: UX, UI, FIGMA & SEO
 
-- [Front: Programação (HTML, CSS, SASS & Bootstrap)](./front-html/README.md)
+- [Front: Programação (HTML, CSS, SASS & Bootstrap)](./front-html/)
 
 - Advanced Frameworks: React
 
