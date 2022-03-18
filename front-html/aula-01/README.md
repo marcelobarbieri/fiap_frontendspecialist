@@ -12,7 +12,7 @@ Instalando e configurando o VSCode
 
 https://code.visualstudio.com/download
 
-# Extensões e Atalhos
+<details><summary>Extensões e Atalhos</summary>
 
 ## Extensões
 
@@ -40,6 +40,8 @@ https://code.visualstudio.com/download
 | Ctrl + Barra de espaço             | Abre o intellisense                                            |
 | Ctrl + ]                           | Dividir a tela                                                 |
 | Ctrl + K + S                       | Exibe todos os atalhos                                         |
+
+</details>
 
 # Introdução HTML
 
