@@ -61,11 +61,13 @@ HTML - HyperText Markup Language
 </html>
 ```
 
-**\<!DOCTYPE html\>**
+> \<!DOCTYPE html\>
+
 Será a primeira linha do código.
 Indica ao browser qual especificação do HTML estará na página.
 
-**\<html lang="pt-br"\>**
+> \<html lang="pt-br"\>
+
 Indica o início do código.
 Todos os elementos existentes na página são alocados abaixo dessa tag.
 
@@ -74,7 +76,7 @@ Neste caso **pt-br** indica que o conteúdo da página estará em língua portug
 
 No final do documento é possível encontrar o fechamento da tag representado por **</html>** indicando a finalização da página.
 
-**\<head\>**
+> \<head\>
 
 ...
 
