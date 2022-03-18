@@ -6,15 +6,15 @@
 > Introdução CSS - Tipos de Seletores e Formatações
 > Google Fonts
 
-## Baixando o Editor
+# Baixando o Editor
 
 Instalando e configurando o VSCode
 
 https://code.visualstudio.com/download
 
-## Extensões e Atalhos
+# Extensões e Atalhos
 
-### Extensões
+## Extensões
 
 - Beautify
 - Live Server
@@ -23,7 +23,7 @@ https://code.visualstudio.com/download
 - Auto Rename Tag
 - Bracket Pair Colorizer 2
 
-### Atalhos
+## Atalhos
 
 | Atalho                             | Funções                                                        |
 | :--------------------------------- | :------------------------------------------------------------- |
@@ -41,13 +41,13 @@ https://code.visualstudio.com/download
 | Ctrl + ]                           | Dividir a tela                                                 |
 | Ctrl + K + S                       | Exibe todos os atalhos                                         |
 
-## Introdução HTML
+# Introdução HTML
 
 HTML - HyperText Markup Language
 
 [Documentação](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 
-### Estrutura HTML
+## Estrutura HTML
 
 ```html
 <!DOCTYPE html>
@@ -119,7 +119,7 @@ O conteúdo pode ser: texto, imagem, vídeo, tabela ou qualquer outro tipo de el
 
 Possui fechamento representado por **\</body\>**
 
-### Criando o Projeto
+# Criando o Projeto
 
 > Estrutura de Pastas
 
