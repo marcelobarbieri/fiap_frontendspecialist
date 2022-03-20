@@ -205,23 +205,17 @@ Digitar a palavra **lorem50** e pressionar a tecla **ENTER** para escrever 50 pa
 
 </details>
 
-<!-- ## Introdução CSS
-
-### Tipos de Seletores e Formatações
+# Introdução CSS
 
 > CSS - Cascading Style Sheets
 
-[Documentação](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-
-[Can I Use](https://caniuse.com/)
-
-[Pexels](https://www.pexels.com/pt-br/) permite baixar imagens de alta resolução para os projetos.
-
 Linguagem de estilos utilizada para formatar documentos feitos em HTML.
+
 Permite que propriedades sejam aplicadas às tags de uma página permitindo assim a estilização de seu conteúdo.
+
 A CSS definirá a aparência e o layout da sua página HTML.
 
-> Tipos de Declaração
+<details><summary>Tipos de Declaração</summary>
 
 | Tipos | Descrição   | Observações                                                             |
 | :---: | :---------- | :---------------------------------------------------------------------- |
@@ -229,7 +223,7 @@ A CSS definirá a aparência e o layout da sua página HTML.
 |  IN   | CSS INTERNO | As regras de formatação são inseridas no <head> da página.              |
 |  EX   | CSS EXTERNO | As regras de formatação são inseridas em um documento separado do HTML. |
 
-- CSS INLINE
+> CSS INLINE
 
 Consiste na inserção de código CSS dentro da tag do elemento HTML que desejamos formatar.
 Isso é possível por meio da utilização do atributo **style**
@@ -242,7 +236,7 @@ _A utilização de CSS inline não é uma boa prática._
 <h4 style="color: red;">Games</h4>
 ```
 
-- CSS INTERNO
+> CSS INTERNO
 
 Caracterizado pela criação das regras dentro da seção <head> da página.
 Para que o navegador entenda a formatação da página seção <head>, é preciso colocar as regras CSS dentro da tag <style>.
@@ -263,7 +257,7 @@ Ela é melhor que a CSS inline, mas também possui algumas restrições que pode
 </style>
 ```
 
-- CSS EXTERNO
+> CSS EXTERNO
 
 Caracterizado pela criação das regras dentro de um arquivo separado do código HTML.
 Esse arquivo é chamado de **folha de estilos**
@@ -276,6 +270,16 @@ Isso deve ocorrer na seção <head> com o uso da tag <link>
 ```html
 <link rel="stylesheet" href="css/style.css" />
 ```
+
+</details>
+
+<!--
+
+
+
+
+
+
 
 ### Efeito Cascata
 
@@ -473,6 +477,12 @@ https://bit.ly/3MpaVj8
 
 [Documentação](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 [netlify](https://www.netlify.com/)
+
+[Documentação](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+
+[Can I Use](https://caniuse.com/)
+
+[Pexels](https://www.pexels.com/pt-br/) permite baixar imagens de alta resolução para os projetos.
 
 - https://www.notion.so/Refer-ncias-Front-end-135d4881b9ab41f2b24fe25aafe2205d
 - https://www.netlify.com/
