@@ -49,7 +49,7 @@ https://code.visualstudio.com/download
 
 # Introdução HTML
 
-HTML - HyperText Markup Language
+> HTML - HyperText Markup Language
 
 <details><summary>Estrutura HTML</summary>
 
@@ -207,13 +207,13 @@ Digitar a palavra **lorem50** e pressionar a tecla **ENTER** para escrever 50 pa
 
 # Introdução CSS
 
-> CSS - Cascading Style Sheets
+CSS - Cascading Style Sheets
 
 Linguagem de estilos utilizada para formatar documentos feitos em HTML.
-
 Permite que propriedades sejam aplicadas às tags de uma página permitindo assim a estilização de seu conteúdo.
-
 A CSS definirá a aparência e o layout da sua página HTML.
+
+####
 
 <details><summary>Tipos de Declaração</summary>
 
