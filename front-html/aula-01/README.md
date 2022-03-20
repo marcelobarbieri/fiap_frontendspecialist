@@ -213,9 +213,9 @@ Linguagem de estilos utilizada para formatar documentos feitos em HTML.
 Permite que propriedades sejam aplicadas às tags de uma página permitindo assim a estilização de seu conteúdo.
 A CSS definirá a aparência e o layout da sua página HTML.
 
-####
-
 <details><summary>Tipos de Declaração</summary>
+
+<br>
 
 | Tipos | Descrição   | Observações                                                             |
 | :---: | :---------- | :---------------------------------------------------------------------- |
