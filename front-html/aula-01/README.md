@@ -517,9 +517,9 @@ https://fonts.google.com
 > Select this style:
 > @import
 
-# Hands On
+<br>
 
-https://bit.ly/3MpaVj8
+# Hands On
 
 Wireframe são protótipos básicos que demonstram como ficará o layout de uma página ou site. A ideia é que ele demonstre de forma clara e objetivo como as informações serão exibidas no navegador. Existem muitos aplicativos que executam essa tarefa, dê uma olhadinha na página de **Referências Front-End** e clique no item **Mockups**.
 
@@ -532,27 +532,3 @@ Baseando-se no wireframe abaixo, montar uma página HTML que apresente alguma te
 </details>
 
 <br>
-
-# Links
-
-[HTML: Linguagem de Marcação de Hipertexto](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-
-[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-
-<br>
-
-[10 amazing games to learn CSS](https://h.daily-dev-tips.com/10-amazing-games-to-learn-css)
-
-[Can I Use](https://caniuse.com/)
-
-[Daily Dev](https://daily.dev/)
-
-[Netlify](https://www.netlify.com/)
-
-[Pexels](https://www.pexels.com/pt-br/)
-
-[QR.io](https://qr.io/)
-
-[Rafaella Ballerini](https://www.youtube.com/c/rafaellaballerini/search?query=git)
-
-[Referências Frontend](https://www.notion.so/Refer-ncias-Front-end-135d4881b9ab41f2b24fe25aafe2205d)

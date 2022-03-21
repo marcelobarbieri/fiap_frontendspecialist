@@ -24,12 +24,28 @@
 
 # Referências
 
-- [Referências Front-end](https://www.notion.so/Refer-ncias-Front-end-135d4881b9ab41f2b24fe25aafe2205d)
+[10 amazing games to learn CSS](https://h.daily-dev-tips.com/10-amazing-games-to-learn-css)
 
-- [Material de Referências Front-End](https://bit.ly/3cHM4HZ)
+[28 Free Ebooks and Courses for Web Developers](https://niemvuilaptrinh.medium.com/28-ebook-and-course-free-for-web-development-4f01a4d1f4a6)
 
-- [New CSS Features in 2022](https://www.smashingmagazine.com/2022/03/new-css-features-2022/)
+[Can I Use](https://caniuse.com/)
 
-- [CSS Pseudo Elements: A Detailed Beginner’s Guide (2022)](https://torquemag.io/2021/12/css-pseudo-elements/)
+[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
-- [28 Free Ebooks and Courses for Web Developers](https://niemvuilaptrinh.medium.com/28-ebook-and-course-free-for-web-development-4f01a4d1f4a6)
+[CSS Pseudo Elements: A Detailed Beginner’s Guide (2022)](https://torquemag.io/2021/12/css-pseudo-elements/)
+
+[Daily Dev](https://daily.dev/)
+
+[HTML: Linguagem de Marcação de Hipertexto](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+
+[Netlify](https://www.netlify.com/)
+
+[New CSS Features in 2022](https://www.smashingmagazine.com/2022/03/new-css-features-2022/)
+
+[Pexels](https://www.pexels.com/pt-br/)
+
+[QR.io](https://qr.io/)
+
+[Rafaella Ballerini](https://www.youtube.com/c/rafaellaballerini/search?query=git)
+
+[Referências Frontend](https://www.notion.so/Refer-ncias-Front-end-135d4881b9ab41f2b24fe25aafe2205d)
