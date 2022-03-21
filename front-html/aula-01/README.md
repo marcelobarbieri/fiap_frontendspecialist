@@ -8,6 +8,8 @@
 
 <details><summary>Editor</summary>
 
+<br>
+
 # Baixando o Editor
 
 Instalando e configurando o VSCode
@@ -15,6 +17,8 @@ Instalando e configurando o VSCode
 https://code.visualstudio.com/download
 
 <details><summary>Extensões e Atalhos</summary>
+
+<br>
 
 ## Extensões
 
@@ -46,6 +50,8 @@ https://code.visualstudio.com/download
 </details>
 
 </details>
+
+<br>
 
 # Introdução HTML
 
@@ -127,6 +133,8 @@ Possui fechamento representado por **\</body\>**
 
 <details><summary>Criando o Projeto</summary>
 
+<br>
+
 ## Estrutura de Pastas
 
 ```ps
@@ -205,6 +213,8 @@ Digitar a palavra **lorem50** e pressionar a tecla **ENTER** para escrever 50 pa
 
 </details>
 
+<br>
+
 # Introdução CSS
 
 CSS - Cascading Style Sheets
@@ -238,8 +248,8 @@ _A utilização de CSS inline não é uma boa prática._
 
 > CSS INTERNO
 
-Caracterizado pela criação das regras dentro da seção <head> da página.
-Para que o navegador entenda a formatação da página seção <head>, é preciso colocar as regras CSS dentro da tag <style>.
+Caracterizado pela criação das regras dentro da seção \<head\> da página.
+Para que o navegador entenda a formatação da página seção \<head\>, é preciso colocar as regras CSS dentro da tag \<style\>.
 
 Ela é melhor que a CSS inline, mas também possui algumas restrições que podem indisponibilizar seu uso.
 
@@ -273,15 +283,9 @@ Isso deve ocorrer na seção <head> com o uso da tag <link>
 
 </details>
 
-<!--
+<details><summary>Efeito Cascata</summary>
 
-
-
-
-
-
-
-### Efeito Cascata
+<br>
 
 > Efeito de especificidade
 
@@ -293,12 +297,14 @@ Ele seguirá o seguinte padrão:
 3. Regra CSS interna
 4. Regra CSS inline
 
-### Declaração de uma regra CSS
+</details>
+
+<details><summary>Declaração de uma regra CSS</summary>
+
+<br>
 
 Uma regra CSS é um conjunto de declarações que definirão como será o estilo de um ou mais elementos HTML.
-
-Um conjunto de regras CSS forma uma **Folha de Estilos**
-
+Um conjunto de regras CSS forma uma **Folha de Estilos**.
 É composta por um **seletor**, uma **propriedade** e um **valor**
 
 ```css
@@ -313,12 +319,14 @@ seletor {
 | Propriedade | Aquilo que deseja-se formatar no seletor         |
 |    Valor    | Novo valor que a propriedade do seletor receberá |
 
-### Agrupando seletores CSS
+</details>
+
+<details><summary>Agrupando seletores CSS</summary>
+
+<br>
 
 É possível agrupar vários seletores para que todos recebam a mesma regra CSS.
-
 Para isso, basta digitar os seletores separando-os por vírgula.
-
 A regra declarada será aplicada a todos eles.
 
 ```css
@@ -332,11 +340,16 @@ h6 {
 }
 ```
 
-### Seletores de ID - Class
+</details>
 
-Para utilizar estilos específicos para uma tag, ou grupo de tags, podemos criar seletores de dois tipo: **Seletor de ID** e **Seletor de Class**
+<details><summary>Seletores de ID - Class</summary>
 
-**Seletor de ID**
+<br>
+
+Para utilizar estilos específicos para uma tag, ou grupo de tags, podemos criar seletores de dois tipo: **Seletor de ID** e **Seletor de Class**.
+
+> Seletor de ID
+
 Todo elemento HTML pode receber o atributo ID, ele servirá como um identificador para o elemento e pode ser usado pela CSS.
 Em uma página HTML não podemos ter IDs repetidos.
 
@@ -346,7 +359,8 @@ Em uma página HTML não podemos ter IDs repetidos.
 }
 ```
 
-**Seletor de Class**
+> Seletor de Class
+
 Pode-se usar o atributo CLASS em qualquer elemento HTML e usá-lo na regra CSS.
 Em uma página HTML, podemos ter CLASS repetidas
 
@@ -356,7 +370,11 @@ Em uma página HTML, podemos ter CLASS repetidas
 }
 ```
 
-### Formatações Font-Family
+</details>
+
+<details><summary>Formatação Font-Family</summary>
+
+<br>
 
 Define as fontes que serão usadas na página.
 É comum declararmos mais de uma fonte, pois caso o navegador não encontre a primeira fonte, ele tentará a prósima fonte, e assim por diante.
@@ -368,7 +386,11 @@ p {
 }
 ```
 
-### Formatações Font-Size
+</details>
+
+<details><summary>Formatação Font-Size</summary>
+
+<br>
 
 Define o tamanho da fonte do seletor
 
@@ -378,7 +400,11 @@ p{
 }
 ```
 
-### Formatações Color
+</details>
+
+<details><summary>Formatação Color</summary>
+
+<br>
 
 Define a cor da fonte que será usada em nossos textos.
 A declaração das cores aceita os seguintes tipos de valores:
@@ -401,7 +427,11 @@ h3 {
 }
 ```
 
-### Formatação Font-Weight
+</details>
+
+<details><summary>Formatação Font-Weight</summary>
+
+<br>
 
 Define o peso da fonte do seletor.
 Os valores numéricos aceitos variam entre 100 e 900, com intervalos de 100 em 100.
@@ -413,7 +443,11 @@ p {
 }
 ```
 
-### Formatação Text-Align
+</details>
+
+<details><summary>Formatação Text-Align</summary>
+
+<br>
 
 Define o alinhamento de nossos textos.
 Possui os seguintes valores: left, right, center, justify
@@ -424,7 +458,11 @@ p {
 }
 ```
 
-### Formatação Text-Decoration
+</details>
+
+<details><summary>Formatação Text-Decoration</summary>
+
+<br>
 
 Define a decoração do texto, uma linha que poderá ficar acima, abaixo ou no meio do texto.
 Os valores válidos são: overline, underline, line-through
@@ -436,7 +474,11 @@ p {
 }
 ```
 
-### Formatação Text-Transform
+</details>
+
+<details><summary>Formatação Text-Transform</summary>
+
+<br>
 
 Define letras maiúsculas e minúsculas em um texto.
 Os valores válidos são: lowercase, uppercase, capitalize
@@ -447,50 +489,70 @@ p {
 }
 ```
 
-### Formatação Line-Height
+</details>
+
+<details><summary>Formatação Line-Height</summary>
+
+<br>
 
 Define a altura da linha.
 Pode ser usada para alterar a distância entre as linhas do texto.
 
-```cs
-p{
-    line-height: 25px;
+```css
+p {
+  line-height: 25px;
 }
 ```
 
-## Google Fontes
+</details>
 
-### Selecionando famílias de fontes
+<br>
+
+# Google Fontes
+
+## Selecionando famílias de fontes
 
 https://fonts.google.com
 
-- Select this style
-  @import
-
-https://h.daily-dev-tips.com/10-amazing-games-to-learn-css
+> Select this style:
+> @import
 
 # Hands On
 
 https://bit.ly/3MpaVj8
 
+Wireframe são protótipos básicos que demonstram como ficará o layout de uma página ou site. A ideia é que ele demonstre de forma clara e objetivo como as informações serão exibidas no navegador. Existem muitos aplicativos que executam essa tarefa, dê uma olhadinha na página de **Referências Front-End** e clique no item **Mockups**.
+
+Baseando-se no wireframe abaixo, montar uma página HTML que apresente alguma tecnologia atual que você é apaixonado.
+
+<details><summary>Wireframe</summary>
+
+![Hands On](./assets/handson-aula1.jpg)
+
+</details>
+
+<br>
+
 # Links
 
-[Documentação](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-[netlify](https://www.netlify.com/)
+[HTML: Linguagem de Marcação de Hipertexto](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 
-[Documentação](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+
+<br>
+
+[10 amazing games to learn CSS](https://h.daily-dev-tips.com/10-amazing-games-to-learn-css)
 
 [Can I Use](https://caniuse.com/)
 
-[Pexels](https://www.pexels.com/pt-br/) permite baixar imagens de alta resolução para os projetos.
+[Daily Dev](https://daily.dev/)
 
-- https://www.notion.so/Refer-ncias-Front-end-135d4881b9ab41f2b24fe25aafe2205d
-- https://www.netlify.com/
-- https://www.youtube.com/c/rafaellaballerini/search?query=git
-- Daily Dev
-- https://caniuse.com/?search=img
-- https://fonts.google.com/
-- QR Code Generator
+[Netlify](https://www.netlify.com/)
 
+[Pexels](https://www.pexels.com/pt-br/)
 
--->
+[QR.io](https://qr.io/)
+
+[Rafaella Ballerini](https://www.youtube.com/c/rafaellaballerini/search?query=git)
+
+[Referências Frontend](https://www.notion.so/Refer-ncias-Front-end-135d4881b9ab41f2b24fe25aafe2205d)
