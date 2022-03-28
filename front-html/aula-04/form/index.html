@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+
+    <!-- CSS Interno - Evitar usar -->
+    <style>
+        body {
+            font-family: Calibri;
+        }
+
+        div {
+            margin-bottom: 1rem;
+        }
+
+        textarea {
+            height: 150px;
+            width: 25%;
+            resize: none;
+            text-align: top;
+            vertical-align: top;
+        }
+
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+            outline: none;
+            border: 5px solid #369;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Exemplo de Formulário</h2>
+    <form action="" id="dados" name="dados" method="post">
+
+        <div>
+            <label for="user">Usuário:</label>
+            <input type="text" name="user" id="user" placeholder="Ex: Fulano de Tal" minlength="10" maxlength="20"
+                required autofocus>
+        </div>
+
+        <div>
+            <label for="pwd">Senha:</label>
+            <input type="password" name="pwd" id="pwd" placeholder="Ex: 12345" minlength="10" maxlength="20" required>
+        </div>
+
+        <div>
+            <p>Selecione sua área de atuação:</p>
+            <input type="radio" name="area" id="area1" value="1" checked>
+            <label for="area1">Front-end</label>
+            <input type="radio" name="area" id="area2" value="2">
+            <label for="area2">Back-end</label>
+            <input type="radio" name="area" id="area3" value="3">
+            <label for="area3">Full-Stack</label>
+            <input type="radio" name="area" id="area4" value="4">
+            <label for="area4">DevOps</label>
+        </div>
+
+        <div>
+            <p>
+                Selecione suas preferências:
+                <input type="checkbox" name="viajar" id="viajar" value="1" checked>
+                <label for="viajar">Viajar</label>
+
+                <input type="checkbox" name="games" id="games" value="2" checked>
+                <label for="games">Jogar videogame</label>
+
+                <input type="checkbox" name="ler" id="ler" value="3" checked>
+                <label for="ler">Ler</label>
+
+                <input type="checkbox" name="comer" id="comer" value="4" checked>
+                <label for="comer">Comer</label>
+            </p>
+        </div>
+
+        <div>
+            <label for="education">Selecione sua formação:</label>
+            <select name="education" id="education">
+                <option value="0" disabled selected>Escolha uma opção</option>
+                <option value="1">Ensino Médio</option>
+                <option value="2">Ensino Superior</option>
+                <option value="3">Pós-Graduação</option>
+                <option value="4">Mestrado</option>
+                <option value="5">Doutorado</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="education1">Selecione sua formação (DataList):</label>
+            <input list="education1">
+            <datalist id="education1">
+                <option value="Ensino Médio">
+                <option value="Ensino Superior">
+                <option value="Pós-Graduação">
+                <option value="Mestrado">
+                <option value="Doutorado">
+            </datalist>
+        </div>
+
+        <div>
+            <label for="file">Enviar arquivo:</label>
+            <input type="file" name="file" id="file">
+        </div>
+
+        <div>
+            <label for="date">Data da Viagem:</label>
+            <input type="date" name="date" id="date">
+        </div>
+
+        <div>
+            <label for="time">Hora do Embarque:</label>
+            <input type="time" name="time" id="time">
+        </div>
+
+        <div>
+            <label for="datetime">Data e Hora da Viagem:</label>
+            <input type="datetime-local" name="datetime" id="datetime">
+        </div>
+
+        <div>
+            <label for="week">Semana:</label>
+            <input type="week" name="week" id="week">
+        </div>
+
+        <div>
+            <label for="number">Número:</label>
+            <input type="number" name="number" id="number" min="100" max="200" step="10">
+        </div>
+
+        <div>
+            <label for="range">Escala:</label>
+            <input type="range" name="range" id="range" min="100" max="200" step="10">
+        </div>
+
+        <div>
+            <label for="range">Escala:</label>
+            <input type="range" name="range" id="range" min="100" max="200" step="10">
+        </div>
+
+        <div>
+            <label for="tel">Celular</label>
+            <input type="tel" name="tel" id="tel">
+        </div>
+
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div>
+            <label for="url">Url:</label>
+            <input type="url" name="url" id="url">
+        </div>
+
+        <div>
+            <label for="search">Busca:</label>
+            <input type="search" name="search" id="search">
+        </div>
+
+        <div>
+            <label for="color">Cor:</label>
+            <input type="color" name="color" id="color">
+        </div>
+
+        <div>
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Enviar formulário</button>
+            <button type="reset">Limpar formulário</button>
+            <button type="button">Chamar JavaScript</button>
+        </div>
+
+        <div>
+            <input type="submit">
+            <input type="reset">
+            <input type="button" value="Botão">
+        </div>
+    </form>
+</body>
+
+</html>
