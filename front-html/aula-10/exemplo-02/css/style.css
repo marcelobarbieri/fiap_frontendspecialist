@@ -1,0 +1,18 @@
+body {
+  background-color: #c4c4c4;
+  width: 100%;
+  font-family: Calibri;
+}
+body .container {
+  margin: 20px auto;
+  background-color: #900;
+}
+body h1 {
+  font-size: 40px;
+  color: #fff;
+}
+body p {
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */

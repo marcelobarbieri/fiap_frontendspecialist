@@ -1,0 +1,58 @@
+body{
+    font-family: 'Poppins',
+    sans-serif;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.icone{
+    color:#878;
+    font-size:20px;    
+}
+
+.carousel-inner, 
+.carousel-item{
+    max-height: 30vh;
+}
+
+.gallery {
+    min-height: 100vh;
+    padding: 60px 40px;
+}
+
+.gallery img {
+    background-color: #fff;
+    padding: 15px;
+    /* margin: 0 0 70px; */
+    /* width: 100%; */
+    box-shadow: 0 0 15px rgba(0,0,0,0.32);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.gallery img:hover {    
+    transform: rotate(0);
+}
+
+.left-rotate{
+    transform: rotate(-5deg);
+}
+
+.right-rotate{
+    transform: rotate(+5deg);
+}
+
+.modal-img{
+    width: 100%;    
+}
+
+.modal-img{
+    width:100%;
+}
+
+.modal-body{
+    display:flex;
+
+}

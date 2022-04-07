@@ -1,0 +1,16 @@
+//@import 'variables';
+@use 'variables' as v;
+
+
+h1{
+    color: v.$text-primary;
+    background-color: v.$bg-primary;
+}
+
+p{
+    background-color: v.$bg-primary;
+}
+
+section{
+    color: v.$text-secondary;
+}

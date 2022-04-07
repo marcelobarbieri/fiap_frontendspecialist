@@ -1,0 +1,21 @@
+.btn-danger {
+    background-color: #900;
+    @extend %btn-model;
+}
+
+.btn-info {
+    background-color: #09f;
+    @extend %btn-model;
+}
+
+//placeholder
+%btn-model {
+    width: 80px;
+    height: 40px;
+    color: #fff;
+
+    &:hover {
+        border-color: #fff;
+        width: 200px;
+    }
+}

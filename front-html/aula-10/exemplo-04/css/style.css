@@ -1,0 +1,61 @@
+.container {
+  width: 50%;
+  padding: 10px;
+}
+.container h3 {
+  color: #dc143c;
+}
+.container p {
+  text-align: justify;
+  margin-bottom: 50px;
+}
+.container a {
+  text-decoration: none;
+  padding: 20px 40px;
+  background-color: #dc143c;
+  color: #fff;
+  transition: 0.5s;
+  border: #dc143c 1px solid;
+}
+.container a:hover {
+  background-color: transparent;
+  color: #dc143c;
+}
+
+.box {
+  width: 50%;
+  background-color: #dc143c;
+  padding: 10px;
+  margin: 20px 0;
+}
+.box-item {
+  color: #fff;
+  background-color: #333;
+  padding: 20px;
+  margin: 10px;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  border: 3px solid #000;
+  color: #fff;
+}
+.btn:hover {
+  background-color: #dc143c;
+  color: #fff;
+}
+.btn-danger {
+  background-color: #900;
+}
+.btn-info {
+  background-color: #329;
+}
+.btn-info:hover {
+  color: #fff;
+}
+.btn-warning {
+  background-color: #fc0;
+}
+
+/*# sourceMappingURL=style.css.map */

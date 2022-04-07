@@ -1,0 +1,24 @@
+body {
+  background-color: #c4c4c4;
+  width: 100%;
+  font-family: Calibri;
+}
+
+body .container {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+body h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+body p {
+  font-size: 18px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,46 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 10px */
+}
+
+body {
+  font-size: 2.5rem; /* 25px */
+  font-family: Calibri;
+}
+
+.container {
+  padding: 1rem;
+  color: #fff;
+  font-size: 3rem;
+
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 20vh 70vh 10vh;
+  /* gap: 1rem; */
+}
+
+header {
+  background-color: hsl(252, 6%, 28%);
+  grid-column: 1/3;
+}
+
+main {
+  background-color: hsl(252, 31%, 24%);
+  grid-column: 1/2;
+}
+
+aside {
+  background-color: hsl(252, 33%, 73%);
+  grid-column: 2/3;
+}
+
+footer {
+  background-color: hsl(252, 43%, 59%);
+  grid-column: 1/3;
+}

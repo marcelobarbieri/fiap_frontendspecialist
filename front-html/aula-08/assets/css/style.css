@@ -1,0 +1,18 @@
+body{
+    font-family: 'Poppins',
+    sans-serif;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.icone{
+    color:#878;
+    font-size:20px;    
+}
+
+.carousel-inner, 
+.carousel-item{
+    max-height: 30vh;
+}

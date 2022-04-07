@@ -1,0 +1,13 @@
+.btn{
+    background-color: $bg-color;
+    color: $text-color;
+    border-radius: $bg-radius;
+    padding: $bg-padding;
+    margin: $margin;
+    font-family: $font-family;
+    font-size: $font-size;
+
+    &:hover{
+        background-color: aqua;
+    }
+}

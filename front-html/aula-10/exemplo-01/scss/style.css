@@ -1,0 +1,24 @@
+.container {
+  margin: 20px auto;
+  width: 100%;
+  background-color: #da143c;
+  color: #fff;
+  font-family: Calibri;
+}
+
+.container h1 {
+  font-size: 4rem;
+  color: #000;
+}
+
+.container p {
+  line-height: 30px;
+  font-size: 1.5rem;
+}
+
+.container a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 500;
+}
+/*# sourceMappingURL=style.css.map */
