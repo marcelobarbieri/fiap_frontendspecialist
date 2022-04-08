@@ -21,3 +21,5 @@ npm run eject
 npm start
 http://localhost:3000/
 ```
+
+https://github.com/fatihtelis/react-lorem-ipsum

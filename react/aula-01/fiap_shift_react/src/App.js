@@ -1,13 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { render } from 'react-dom';
+import { LoremIpsum } from 'react-lorem-ipsum';
 
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <p>
+      <h1>
         Hello World!!!
-      </p>
+      </h1>
+      <div className="text-wrapper">
+        <LoremIpsum p={5} />
+      </div>
     </div>
   );
 }
