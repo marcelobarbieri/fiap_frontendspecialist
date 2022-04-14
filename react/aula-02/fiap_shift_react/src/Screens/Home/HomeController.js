@@ -7,12 +7,29 @@ class HomeController extends React.Component {
     constructor() {
         super();
         this.homeModel = new HomeModel();//inicializando o view    
-        this.homeModel.getSomeInfo(); 
+        this.homeModel.getSomeInfo();
+        this.state = {
+            count: 0
+        };
+
+        // setInterval(() => {
+        //     this.setState({
+        //         count: this.state.count + 1
+        //     })
+        // }, 1000);
+    }
+
+    soma10 = () => {
+        return (
+            this.setState({
+                count: this.state.count + 10
+            })
+        );
     }
 
     render() {
         return (
-            <HomeView /> //Chamando o View
+            <HomeView count={this.state.count} soma10={this.soma10}/> //Chamando o View
         )
     }
 }
