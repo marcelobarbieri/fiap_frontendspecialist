@@ -1,0 +1,19 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(180deg, rgb(249, 241, 237) 0%, rgba(251, 216, 214, 0.703) 67.06%), linear-gradient(0deg, rgba(255, 243, 242, 0.892), rgba(255, 243, 242, 0.867)), #FFFFFF;
+  background-attachment: fixed;
+}
+
+.contentBox {
+  margin-left: 35px;
+  margin-right: 35px;
+}
